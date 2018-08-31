@@ -7,6 +7,6 @@ FootballNET is a football ontoloy.
 
 Footballnet contains club data and football player data such as Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and China Super League.
 
-FootballNET hat only Premier League now, more detail will comme soon.
-If you are interested in footballNET, please contact with me(zhewangjob@hotmail.com). we can work togrther.
+FootballNET has only Premier League clubs data now, more detail will comme soon.
+If you are interested in footballNET, please contact with me(zhewangjob@hotmail.com). we can work togrther. :)
 
