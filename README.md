@@ -2,9 +2,9 @@
 # FootballNET
 FootballNET is a football ontoloy.
 All data comes from Wikipedia and http://www2.squawka.com.
-Axiom: 710
-Logical axiom count: 240
-Individual count: 116
+- Axiom: 710
+- Logical axiom count: 240
+- Individual count: 116
 
 - IDE:Protege 4.6
 - Language:OWL
