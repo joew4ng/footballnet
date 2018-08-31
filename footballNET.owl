@@ -1,0 +1,1643 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.zhewang.de/footballnet#"
+     xml:base="http://www.zhewang.de/footballnet"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.zhewang.de/footballnet"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasCNLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zhewang.de/footballnet#hasCNLabel"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasIndication -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zhewang.de/footballnet#hasIndication"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasManager -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zhewang.de/footballnet#hasManager"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasName -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zhewang.de/footballnet#hasName"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasNickname -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zhewang.de/footballnet#hasNickname"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasPastHonours -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zhewang.de/footballnet#hasPastHonours"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasWebsite -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zhewang.de/footballnet#hasWebsite"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#isFoundedIn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zhewang.de/footballnet#isFoundedIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#belongs_to -->
+
+    <owl:ObjectProperty rdf:about="http://www.zhewang.de/footballnet#belongs_to">
+        <rdfs:domain rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <rdfs:range rdf:resource="http://www.zhewang.de/footballnet#League"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#has_home_ground -->
+
+    <owl:ObjectProperty rdf:about="http://www.zhewang.de/footballnet#has_home_ground">
+        <rdfs:domain rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <rdfs:range rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#has_position -->
+
+    <owl:ObjectProperty rdf:about="http://www.zhewang.de/footballnet#has_position">
+        <rdfs:domain rdf:resource="http://www.zhewang.de/footballnet#Football_Player"/>
+        <rdfs:range rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#is_a -->
+
+    <owl:ObjectProperty rdf:about="http://www.zhewang.de/footballnet#is_a"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#is_location_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.zhewang.de/footballnet#is_location_in">
+        <rdfs:domain rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <rdfs:range rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#play_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.zhewang.de/footballnet#play_for">
+        <rdfs:domain rdf:resource="http://www.zhewang.de/footballnet#Football_Player"/>
+        <rdfs:range rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasBirthday -->
+
+    <owl:DatatypeProperty rdf:about="http://www.zhewang.de/footballnet#hasBirthday"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasCNLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.zhewang.de/footballnet#hasCNLabel"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasFoundedIn -->
+
+    <owl:DatatypeProperty rdf:about="http://www.zhewang.de/footballnet#hasFoundedIn"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasGenderIs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.zhewang.de/footballnet#hasGenderIs"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasHeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.zhewang.de/footballnet#hasHeight"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasIndication -->
+
+    <owl:DatatypeProperty rdf:about="http://www.zhewang.de/footballnet#hasIndication"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasManager -->
+
+    <owl:DatatypeProperty rdf:about="http://www.zhewang.de/footballnet#hasManager"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.zhewang.de/footballnet#hasName"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasNickname -->
+
+    <owl:DatatypeProperty rdf:about="http://www.zhewang.de/footballnet#hasNickname"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#City -->
+
+    <owl:Class rdf:about="http://www.zhewang.de/footballnet#City"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Football_Club -->
+
+    <owl:Class rdf:about="http://www.zhewang.de/footballnet#Football_Club"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Football_Ground -->
+
+    <owl:Class rdf:about="http://www.zhewang.de/footballnet#Football_Ground"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Football_Player -->
+
+    <owl:Class rdf:about="http://www.zhewang.de/footballnet#Football_Player"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#League -->
+
+    <owl:Class rdf:about="http://www.zhewang.de/footballnet#League"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Position -->
+
+    <owl:Class rdf:about="http://www.zhewang.de/footballnet#Position"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Anfield -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Anfield">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Liverpool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Arsenal_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Arsenal_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Emirates_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">阿森纳</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arsenal were originally founded as Dial Square in 1886 by a group of workers employed by the Dial Square workshop at the Royal Arsenal in Woolwich, London. They were controversially elected to the First Division in 1919 at the expense of North London rivals TottenhamHotspur. 
+Early success at the Highbury ground under the revolutionary guidance of Herbert Chapman, aided by the goal-scoring prowess of Cliff Bastin gave them a solid base to build upon. Never relegated from the top flight, they have enjoyed further periods of domestic success under George Graham and more recently, Arsène Wenger. 
+While Scotsman Graham was noted for his teams&apos; defensive tactics and rugged solidity; the French-born Wenger brought entirely new tactics and a legion of foreign talent such as Dennis Bergkamp, Thierry Henry and Patrick Vieira which propelled the club to two double-winning seasons and the unbeaten season of the &quot;Invincibles”. 
+Despite never winning a top European trophy, Arsenal have been one of the most consistent teams in the Champions League since Wenger&apos;s arrival. They have since moved from their Highbury home to the state of the art Emirates stadium holding over 60000 people.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unai Emery</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arsenal Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Gunners</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Champions (13): 1930–31, 1932–33, 1933–34, 1934–35, 1937–38, 1947–48, 1952–53, 1970–71, 1988–89, 1990–91, 1997–98, 2001–02, 2003–04
+FA Cup (10): 1930, 1936, 1950, 1971, 1979, 1993, 1998, 2002, 2003, 2005, 2014
+League Cup (2): 1987, 1993
+FA Community Shield (12): 1930, 1931, 1933, 1934, 1938, 1948, 1953, 1991 (shared), 1998, 1999, 2002, 2004, 2014
+UEFA Champions League (0): Runners-up 2006
+European Cup Winners Cup (1): 1994, Runners-up 1980, 1995</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.arsenal.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1886</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Athletic_Football_Club_Bournemouth -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Athletic_Football_Club_Bournemouth">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">伯恩茅斯</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AFC Bournemouth (About this sound listen)) is a professional football club in Bournemouth, Dorset, that plays in the Premier League, the top tier of the English football league system. Formed in 1890 as Boscombe St. John&apos;s Institute F.C., the club adopted their current name in 1972. Nicknamed The Cherries, since 1910 Bournemouth have played their home games at Dean Court. Their home colours are red and black striped shirts, with black shorts and socks.
+AFC Bournemouth have won the second and third tiers of English football, and were twice runners up of the fourth tier. They have also won the Football League Trophy, and the Football League Third Division South Cup.
+Bournemouth have spent the majority of their history bouncing between the third and fourth tier of English football. Under manager Eddie Howe, they have risen through the pyramid; the 2015–16 season was AFC Bournemouth&apos;s first ever in England&apos;s top division.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eddie Howe</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bournemouth</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Cherries, Boscombe</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Football League Championship
+Champions: 2014–15
+Football League One
+Champions: 1986–87
+Runners-up (2): 1947–48, 2012–13
+Football League Two
+Runners-up (2): 1970–71, 2009–10
+Play-off winners: 2002–03
+Promoted: 1981–82
+Southern League
+Runners-up: 1922–23
+Football League Trophy
+Winners: 1983–84
+Runners-up: 1997–98
+Football League Third Division South Cup
+Winners: 1945–46</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.afcb.co.uk/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1899</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Attacking_midfield -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Attacking_midfield">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Brighton_and_Hove_Albion_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Brighton_and_Hove_Albion_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Falmer_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">布莱顿足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brighton &amp; Hove Albion Football Club is a professional football club from Brighton based in Falmer, East Sussex, England. They currently compete in the Premier League, the top tier of the English football league system. Brighton&apos;s home ground is the 30,750-capacity Falmer Stadium, known for sponsorship purposes as the American Express Community Stadium, or simply the Amex.
+Founded in 1901, and nicknamed the &quot;Seagulls&quot; or &quot;Albion&quot;, Brighton played their early professional football in the Southern League, before being elected to the Football League in 1920. The club enjoyed greatest prominence between 1979 and 1983 when they played in the First Division and reached the 1983 FA Cup Final, losing to Manchester United after a replay. They were relegated from the First Division in the same season.
+By the late 1990s, Brighton had slipped to the fourth tier of English football and were in financial trouble. After narrowly avoiding relegation from the Football League to the Conference in 1997, a boardroom takeover saved the club from liquidation. Successive promotions in 2001 and 2002 brought Brighton back to the second tier, and in 2011, the club moved into the Falmer Stadium after 14 years without a permanent home ground. In the 2016–17 season, Brighton finished second in the EFL Championship and were thus promoted to the Premier League, ending a 34-year absence from the top flight.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Hughton</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brighton and Hove Albion Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Seagulls, Albion</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">League
+Football League Second Division/EFL Championship (Tier 2) runners up: 1978–79, 2016–17
+Football League Third Division South/Football League Second Division/Football League One (Tier 3) champions: 1957–58, 2001–02, 2010–11
+Football League Fourth Division/Football League Third Division (Tier 4) champions: 1964–65, 2000–01
+Southern Football League champions: 1909–10
+
+Cup
+FA Cup runners-up: 1983
+FA Charity Shield winners: 1910
+The Sussex Royal Ulster Rifles Charity Cup winners: 1959–60, 1960–61[a][22]
+ shared with Chichester City in 1960–61</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.brightonandhovealbion.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 June 1901</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Burnley_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Burnley_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Turf_Moor"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">伯恩利足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burnley Football Club is a professional association football club based in Burnley, Lancashire, England. Founded on 18 May 1882, the team originally played only friendly matches until they entered the FA Cup for the first time in 1885–86. The club currently plays in the Premier League, the first tier of English football. Nicknamed the Clarets, due to the dominant colour of their home shirts, they were one of the twelve founding members of the Football League in 1888.
+Burnley have been champions of England twice, in 1920–21 and 1959–60, have won the FA Cup once, in 1914, and have won the Community Shield twice, in 1960 and 1973. The Clarets also reached the 1961 quarter-finals of the European Cup. They are one of only five teams to have won all top four professional divisions of English football, along with Wolverhampton Wanderers, Preston North End, Sheffield United and Portsmouth.
+In the 1920–21 campaign, Burnley were crowned champions of England for the first time when they won the First Division.[A] During that season the team embarked on a 30-match unbeaten run, which remained an English record until it was beaten by Nottingham Forest in the late 1970s. Burnley attained a second league championship in 1959–60 with a team consisting of mostly youth academy graduates, winning the title with a last-day victory over Manchester City, after foundations were laid by pioneers Alan Brown, Bob Lord and Harry Potts.
+Just twenty years later, in 1979–80, Burnley were relegated to the Third Division — the first time in their history they had played in the third tier of English football. Five years later, the team competed in the Fourth Division for the first time following another relegation, and on 9 May 1987 only a 2–1 home win against Orient saved Burnley from relegation to the Football Conference and a possible dissolution. Burnley won promotion in 1991–92 to the third tier and again in 1999–2000 to the second tier, before being promoted to the Premier League in 2008–09, 2013–14 and 2015–16.
+Burnley have played home games at Turf Moor since 17 February 1883, after the club had moved from their original premises at Calder Vale. The club colours of claret and blue were adopted prior to the 1910–11 season in tribute to the dominant club of English football at the time, Aston Villa. Their current manager, Sean Dyche, was appointed on 30 October 2012.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sean Dyche</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Burnley Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Clarets</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">League
+See also: List of Burnley F.C. seasons
+First Division/Premier League (Tier 1)
+
+Winners (2): 1920–21, 1959–60
+Runners–up (2): 1919–20, 1961–62
+Third (5): 1898–99, 1921–22, 1947–48, 1962–63, 1965–66
+Second Division/First Division/Championship (Tier 2)
+
+Winners (3): 1897–98, 1972–73, 2015–16
+Promoted (3): 1912–13, 1946–47, 2013–14
+Play–off winners (1): 2008–09
+Third Division/Second Division/League One (Tier 3)
+
+Winners (1): 1981–82
+Promoted (1): 1999–2000
+Play–off winners (1): 1993–94
+Fourth Division/Third Division/League Two (Tier 4)
+
+Winners (1): 1991–92
+Cup
+FA Cup
+
+Winners (1): 1913–14
+Runners–up (2): 1946–47, 1961–62
+Third (1): 1973–74
+FA Charity Shield
+
+Winners (2): 1960 (shared), 1973
+Runners–up (1): 1921
+Anglo–Scottish Cup
+
+Winners (1): 1978–79
+Regional
+Lancashire Senior Cup (nowadays for reserve teams)[149]
+
+Winners (12): 1889–90, 1914–15, 1949–50, 1951–52, 1959–60, 1960–61, 1961–62, 1964–65, 1965–66, 1969–70, 1971–72, 1992–93
+Youth
+The Central League
+
+Winners (3): 1948–49, 1961–62, 1962–63
+FA Youth Cup
+
+Winners (1): 1967–68</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.burnleyfootballclub.com</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 May 1882</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Cardiff -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Cardiff">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Cardiff_City_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Cardiff_City_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Cardiff_City_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">卡迪夫城足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardiff City Football Club (Welsh: Clwb Pêl-droed Dinas Caerdydd) is a professional association football club based in the city of Cardiff, Wales, that competes in the Premier League, the top tier of the English football league system.
+Founded in 1899 as Riverside A.F.C., the club changed its name to Cardiff City in 1908 and joined the English football league system in 1910, competing in the Southern Football League before joining the Football League in 1920. They are the only club from outside England to have won the FA Cup, doing so in 1927. They have also reached three other cup finals in English competitions, the 1925 FA Cup Final against Sheffield United, the 2008 FA Cup Final against Portsmouth and the 2012 Football League Cup Final against Liverpool, suffering defeat on each occasion, and have won the Welsh Cup on 22 occasions, making them the second most successful team in the competition&apos;s history behind Wrexham. The team&apos;s longest period in the top-tier of English football came between 1921 and 1929 and they have spent seven seasons in the top-flight since this period, the most recent being in 2013–14, being relegated after a single season. Upon clinching 2nd place in the Championship table in 2017–18, the club confirmed promotion back to the Premier League for the 2018–19 season.
+Since 1908, the club&apos;s home colours have been blue and white, leading to a nickname of The Bluebirds, with the exception of a period between 2012 and 2015 when the club&apos;s owner, Vincent Tan, rebranded the club and changed the home colours to red. They reverted to their traditional blue in January 2015.[1] Cardiff play their home games at the Cardiff City Stadium, after moving from Ninian Park in 2009, and have long-standing rivalries with nearby clubs Swansea City, known as the South Wales derby, and Bristol City, known as the Severnside derby.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neil Warnock</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardiff City Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Bluebirds</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Second Division/First Division/Championship (As second tier)
+Champions: 2012–13
+Runners-up: 1920–21, 1951–52, 1959–60, 2017–18
+
+Third Division (South)/Third Division/Second Division/League One (As third tier)
+Champions: 1946–47 (South)
+Runners-up: 1975–76, 1982–83
+Play-off Winners: 2003
+
+Fourth Division/Third Division/League Two (As fourth tier)
+Champions: 1992–93
+Runners-up: 1987–88, 2000–01
+Third Place: 1998–99
+
+FA Cup
+Winners: – 1927
+Finalists: – 1925, 2008
+
+FA Charity Shield
+Winners: – 1927
+
+Football League Cup
+Finalists: – 2012
+
+Southern Football League Second Division
+Champions: – 1912–13[91]
+
+Welsh Cup
+Winners: – 1912, 1920, 1922, 1923, 1927, 1928, 1930, 1956, 1959, 1964, 1965, 1967, 1968, 1969, 1970, 1971, 1973, 1974, 1976, 1988, 1992, 1993
+Finalists: – 1929, 1939, 1951, 1960, 1994, 1995
+
+FAW Premier Cup
+Winners: – 2002
+Finalists: – 1998, 2000</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.cardiffcityfc.co.uk/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1899</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Cardiff_City_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Cardiff_City_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Cardiff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Centre_back -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Centre_back">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Centre_forward -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Centre_forward">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Centre_midfield -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Centre_midfield">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Chelsea_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Chelsea_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Stamford_Bridge_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">切尔西足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chelsea Football Club is a professional football club in London, England, that competes in the Premier League. Founded in 1905, the club&apos;s home ground since then has been Stamford Bridge.
+Chelsea won the First Division title in 1955, followed by various cup competitions between 1965 and 1971. The past two decades have seen sustained success, with the club winning 23 trophies since 1997. In total, the club has won 28 major trophies; six titles, eight FA Cups, five League Cups and four FA Community Shields, one UEFA Champions League, two UEFA Cup Winners&apos; Cups, one UEFA Europa League and one UEFA Super Cup.
+Chelsea&apos;s regular kit colours are royal blue shirts and shorts with white socks. The club&apos;s crest has been changed several times in attempts to re-brand the club and modernise its image. The current crest, featuring a ceremonial lion rampant regardant holding a staff, is a modification of the one introduced in the early 1950s. The club have the sixth-highest average all-time attendance in English football,[10] and for the 2017–18 season at 41,280. Since 2003, Chelsea have been owned by Russian billionaire Roman Abramovich. In 2018, they were ranked by Forbes magazine as the seventh most valuable football club in the world, at £1.54 billion ($2.06 billion) and in the 2016–17 season it was the eighth highest-earning football club in the world, having earned €428 million.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maurizio Sarri</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chelsea Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Blues, The Pensioners</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leagues
+First Division/Premier League[nb 4]
+Winners (6): 1954–55, 2004–05, 2005–06, 2009–10, 2014–15, 2016–17
+Second Division[nb 4]
+Winners (2): 1983–84, 1988–89
+
+Cups
+Diego Costa and John Terry holding the League Cup after Chelsea&apos;s victory in 2015
+FA Cup
+Winners (8): 1969–70, 1996–97, 1999–2000, 2006–07, 2008–09, 2009–10, 2011–12, 2017–18
+Football League Cup
+Winners (5): 1964–65, 1997–98, 2004–05, 2006–07, 2014–15
+FA Community Shield[nb 5]
+Winners (4): 1955, 2000, 2005, 2009
+
+Minor Cups
+Full Members Cup
+Winners (2): 1985–86, 1989–90
+
+European
+Didier Drogba holding the Champions League trophy after Chelsea&apos;s victory in 2012
+UEFA Champions League
+Winners (1): 2011–12
+UEFA Europa League
+Winners (1): 2012–13
+UEFA Cup Winners&apos; Cup
+Winners (2): 1970–71, 1997–98
+UEFA Super Cup
+Winners (1): 1998</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.chelseafc.com/zh</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 March 1905</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#City_of_Manchester_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#City_of_Manchester_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Manchester"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Craven_Cottage -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Craven_Cottage">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#London"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Crystal_Palace_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Crystal_Palace_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Selhurst_Park"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">水晶宫足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystal Palace Football Club is a professional football club based in Selhurst, London, that plays in the Premier League, the top flight of English football. They were founded in 1905 at the famous Crystal Palace Exhibition building by the owners of the FA Cup Final stadium which was situated inside its historic grounds. Palace played their home games at the Cup Final venue until 1915 when they were forced to leave due to the First World War. In 1924, the club moved to their current home at Selhurst Park.
+
+Since 1964, Palace have mostly played in the top two leagues of English football. The club had a successful period in the top flight in the late 1980s and early 1990s and challenged for the English league title in the 1990–91 season, eventually finishing in third place, their highest league position to date. Palace were denied entry into European competition at the end of that season due to the partial UEFA ban on English clubs following the Heysel Stadium disaster. It was during this period that the club became founding members of the Premier League. Palace have reached the FA Cup final twice and finished runners-up to Manchester United on both occasions in 1990 and 2016. The club have also been second tier champions twice and hold the record for the most play-off wins for promotion to the top flight, winning the final four times.
+
+In 1973, Palace changed its traditional kit colours from claret and blue to the red and blue vertical stripes now associated with the club. Palace have a fierce rivalry with Brighton &amp; Hove Albion,[4] with whom they contest the M23 derby. They also share rivalries with fellow South London clubs Millwall and Charlton Athletic.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roy Hodgson</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crystal Palace Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Eagles, The Glaziers</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">League
+English top tier (currently the Premier League)
+Highest position: 3rd place 1990–91
+English second tier (currently the EFL Championship)
+Champions (2): 1978–79, 1993–94
+Runners-up (1): 1968–69
+Play-off winners (4): 1988–89, 1996–97, 2003–04, 2012–13
+Play-off runners-up (1): 1995–96
+English third tier (currently EFL League One)
+Champions (1): 1920–21
+Runners-up (4): 1928–29, 1930–31 (Third Division South), 1938–39 (Third Division South), 1963–64
+English fourth tier (currently EFL League Two)
+Runners-up (1): 1960–61
+
+Cup
+FA Cup
+Runners-up (2): 1990, 2016
+Full Members Cup[B]
+Winners (1): 1991
+
+Wartime
+South Regional League
+Champions (1): 1940–41
+South &apos;D&apos; Wartime League
+Champions (1): 1939–40
+
+Regional
+Southern Football League Division One
+Runners-up (1): 1913–14
+Southern Football League Division Two
+Champions (1): 1905–06
+United League[106]
+Champions (1): 1906–07
+Runners-up (1): 1905–06
+London Challenge Cup[C]
+Winners (3): 1912–13, 1913–14, 1920–21
+Surrey Senior Cup[107]
+Winners (3): 1996–97, 2000–01, 2001–02</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.cpfc.co.uk/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 September 1905</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Dean_Court -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Dean_Court">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Dorset"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Defensive_midfield -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Defensive_midfield">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Dorset -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Dorset">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Emirates_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Emirates_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#London"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#English_Premier_League -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#English_Premier_League">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#League"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Everton_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Everton_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">埃弗顿足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Everton Football Club is a football club in Liverpool, England, that competes in the Premier League, the top flight of English football. The club have competed in the top division for a record 114 seasons, missing the top division only four times (1930–31 and three consecutive seasons starting with 1951–52) since The Football League was created in 1888. Everton have won 15 major trophies: the League Championship nine times (fourth most as of 2017–18), the FA Cup five times (ninth most) and the UEFA Cup Winners Cup once.
+
+Formed in 1878, Everton were founding members of The Football League in 1888 and won their first League Championship two seasons later. Following four League Championship and two FA Cup wins, Everton experienced a lull in the immediate post World War Two period, until a revival in the 1960s, which saw the club win two League Championships and an FA Cup. The mid-1980s represented their most recent period of sustained success, with two League Championships, an FA Cup, and the 1985 European Cup Winners&apos; Cup. The club&apos;s most recent major trophy was the 1995 FA Cup.
+
+The club&apos;s supporters are known as Evertonians. Everton have a rivalry with neighbours Liverpool, and the two sides contest the Merseyside derby. The club has been based at Goodison Park in Walton, Liverpool, since 1892, after moving from Anfield following a row over its rent. The club&apos;s home colours are royal blue shirts with white shorts and socks.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marco Silva</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Everton Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Toffees</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic
+First Division:
+Champions (9): 1890–91, 1914–15, 1927–28, 1931–32, 1938–39, 1962–63, 1969–70, 1984–85, 1986–87[94]
+Second Division:
+Winners (1): 1930–31[94]
+FA Cup:
+Winners (5): 1905–06, 1932–33, 1965–66, 1983–84, 1994–95[94]
+Football League Cup:
+Runners-up (2): 1976–77, 1983–84[94]
+FA Charity Shield:
+Winners (9): 1928, 1932, 1963, 1970, 1984, 1985, 1986 (shared), 1987, 1995[94]
+Full Members Cup:
+Runners-up (2): 1989, 1991[94]
+Super Cup:
+Runners-up (1): 1985–86[94]
+
+European
+European Cup Winners&apos; Cup:
+Winners: (1): 1984–85[94]</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.evertonfc.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1878</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Falmer -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Falmer"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Falmer_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Falmer_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Falmer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Fulham_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Fulham_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">富勒姆足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fulham Football Club is a professional association football club based in Fulham, West London, England. Founded in 1879, they currently compete in the Premier League, the top tier of English football, following their promotion from the EFL Championship in the 2017–18 season. They are the oldest-established football team from London to have played in the Premier League.
+
+The club has spent 25 seasons in English football&apos;s top division, the majority of these in two spells during the 1960s and 2000s. The latter spell was associated with former chairman Mohamed Al-Fayed, after the club had climbed up from the fourth tier in the 1990s. Fulham have never won a major honour, although they have reached two major finals: in 1975, as a Second Division team, they contested the FA Cup Final for the only time in their history, losing 2–0 to West Ham United, and in 2010 they reached the final of the UEFA Europa League, which they contested with Atlético Madrid in Hamburg, losing 2–1 after extra time.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slaviša Jokanović</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fulham Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Cottagers, The Whites, The Lily Whites</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA Cup (0): Runners-up 1975
+
+UEFA Europa League (0): Runners-up 2010
+
+UEFA Intertoto Cup (1): 2002</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fulhamfc.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1879</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Full_back -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Full_back">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Goalkeeper -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Goalkeeper">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Goodison_Park -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Goodison_Park">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Liverpool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Huddersfield -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Huddersfield">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Huddersfield_Town_Association_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Huddersfield_Town_Association_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">哈斯菲尔德足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huddersfield Town Association Football Club is a professional football club in Huddersfield, West Yorkshire, England, which competes in the Premier League, the top tier of English football.
+
+In 1926, Huddersfield became the first English club to win three successive league titles, a feat which only three other clubs have matched. The first two league titles were won under manager Herbert Chapman, who also led the club to the FA Cup in 1922. In the late 1950s the club was managed by Bill Shankly and featured Denis Law and Ray Wilson. Following relegation from the First Division in 1972, Huddersfield spent 45 years in the second, third and fourth tiers of English football, before returning to the top flight in 2017 under manager David Wagner.
+
+Nicknamed The Terriers, the club plays in blue and white vertically-striped shirts and white shorts. They play their home games at the Kirklees Stadium.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David Wagner</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huddersfield Town Association Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Terriers</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">League
+First Division (top tier)
+Champions (3): 1923–24, 1924–25, 1925–26
+Runners-up: 1926–27, 1927–28, 1933–34
+Third-place: 1922–23, 1935–36, 1953–54
+Second Division (second tier)
+Champions (1): 1969–70
+Runners-up: 1919–20, 1952–53
+Play-offs Winners: 2017
+Third Division (third tier)
+Promoted: 1982–83
+Play-offs Winners: 1995, 2012
+Fourth Division (fourth tier)
+Champions (1): 1979–80
+Play-offs Winners: 2004
+
+Cup
+FA Cup
+Winners (1): 1922
+Runners-up (4): 1920, 1928, 1930, 1938
+Football League Cup
+Semi-finalists: 1968
+FA Charity Shield
+Winners (1): 1922
+Never played: 1924 (Newcastle United), 1925 (Sheffield United), 1926 (Bolton Wanderers).
+Football League Trophy
+Runners-up: 1994
+Area finalists (2): 2002, 2011
+Yorkshire Electricity Cup
+Winners: 1994–95
+
+International
+Tournoi de Pentecôte du Red Star
+Winners: 1921[8]</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.htafc.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15 August 1908</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#King_Power_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#King_Power_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Leicester"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Kirklees_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Kirklees_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Huddersfield"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Lancashire -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Lancashire">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Leicester -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Leicester">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Leicester_City_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Leicester_City_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#King_Power_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">莱斯特城俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leicester City Football Club is an English professional football club based in Leicester. The club competes in the Premier League, England&apos;s top division of football, and plays its home games at the King Power Stadium.
+
+The club was founded in 1884 as Leicester Fosse F.C.,playing on a field near Fosse Road. They moved to Filbert Street in 1891, were elected to the Football League in 1894 and adopted the name Leicester City in 1919. They moved to the nearby Walkers Stadium in 2002, which was renamed the King Power Stadium after a change of ownership in 2011.
+
+Leicester City won the 2015–16 Premier League, their first top-level football championship. They are one of only six clubs to have won the Premier League since its inception in 1992. A number of newspapers described their title win as the greatest sporting shock ever, considering at the start of the season they were favourites to face relegation. Multiple bookmakers had never paid out at such long odds for any sport. As a result, the team was dubbed &quot;The Unbelievables&quot;, a spin-off hearkening back to Arsenal&apos;s undefeated team &quot;The Invincibles&quot;.[9] The club&apos;s previous highest ever finish was second place in the top flight, in 1928–29, then known as Division One. Throughout Leicester&apos;s history, they have spent all but one season within the top two leagues of English football. They hold a joint-highest seven second-tier titles (six Second Division and one Championship).
+
+The club have been FA Cup finalists four times, in 1948–49, 1960–61, 1962–63 and 1968–69. This is a tournament record for the most defeats in the final without having won the competition. Leicester have several promotions to their name, two play-off final wins, and one League One title. In 1971, they won the FA Community Shield, and in 2016, they were runners-up. The club have also won the League Cup three times in 1964, 1997 and 2000, as well as being runners-up in 1965 and 1999. Additionally, Leicester City have competed in European football, with their appearances coming in the 1961–62 European Cup Winners&apos; Cup, 1997–98 UEFA Cup, 2000–01 UEFA Cup, and most recently the 2016–17 UEFA Champions League, reaching the quarter-finals of the competition in that year.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Claude Puel</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leicester City Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Foxes</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">League
+First Division / Premier League (first tier)
+Champions (1): 2015–16
+Runners-up (1): 1928–29
+Second Division / Football League Championship (second tier)
+Champions (7): 1924–25, 1936–37, 1953–54, 1956–57, 1970–71, 1979–80, 2013–14
+Runners-up (2): 1907–08, 2002–03
+Play-off winners (2): 1993–94, 1995–96
+Football League One (third tier)
+Champions (1): 2008–09
+
+Cup
+Football League Cup
+Winners (3): 1963–64, 1996–97, 1999–2000
+Runners-up (2): 1964–65, 1998–99
+FA Charity Shield / FA Community Shield
+Winners (1): 1971
+Runners-up (1): 2016
+FA Cup
+Runners-up (4): 1948–49, 1960–61, 1962–63, 1968–69
+Regional competitions
+War League South
+Champions (1): 1942[110]
+Football League War Cup
+Winners (1): 1941
+
+Other
+BBC Sports Personality Team of the Year
+Winners (1): 2016
+Laureus Spirit of Sport
+Winners (1): 2017</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.lcfc.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1884</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Liverpool -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Liverpool">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Liverpool_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Liverpool_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">利物浦足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liverpool Football Club is a professional football club in Liverpool, England, that competes in the Premier League, the top tier of English football. The club has won 5 European Cups, more than any other English club, 3 UEFA Cups, 3 UEFA Super Cups, 18 League titles, 7 FA Cups, 8 League Cups, and 15 FA Community Shields.
+
+Founded in 1892, the club joined the Football League the following year and has played at Anfield since its formation. Liverpool established itself as a major force in English and European football in the 1970s and 1980s when Bill Shankly and Bob Paisley led the club to 11 League titles and seven European trophies. Under the management of Rafael Benítez and captained by Steven Gerrard, Liverpool became European champions for the fifth time in 2005.
+
+Liverpool was the ninth highest-earning football club in the world in 2016–17, with an annual revenue of €424.2 million,[3] and the world&apos;s eighth most valuable football club in 2018, valued at $1.944 billion.[4] The club is one of the best supported teams in the world.[5] Liverpool has long-standing rivalries with Manchester United and Everton.
+
+The club&apos;s supporters have been involved in two major tragedies: the Heysel Stadium disaster, where escaping fans were pressed against a collapsing wall at the 1985 European Cup Final in Brussels, with 39 people – mostly Italians and Juventus fans – dying, after which English clubs were given a five-year ban from European competition, and the Hillsborough disaster in 1989, where 96 Liverpool supporters died in a crush against perimeter fencing.
+
+The team changed from red shirts and white shorts to an all-red home strip in 1964 which has been used ever since. The club&apos;s anthem is &quot;You&apos;ll Never Walk Alone&quot;.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jürgen Klopp</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Liverpool Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Reds</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic
+League
+First Division
+Winners (18): 1900–01, 1905–06, 1921–22, 1922–23, 1946–47, 1963–64, 1965–66, 1972–73, 1975–76, 1976–77, 1978–79, 1979–80, 1981–82, 1982–83, 1983–84, 1985–86, 1987–88, 1989–90
+Second Division
+Winners (4): 1893–94, 1895–96, 1904–05, 1961–62
+Lancashire League
+Winners (1): 1892–93
+
+Cups
+FA Cup
+Winners (7): 1964–65, 1973–74, 1985–86, 1988–89, 1991–92, 2000–01, 2005–06
+Football League Cup
+Winners (8): 1980–81, 1981–82, 1982–83, 1983–84, 1994–95, 2000–01, 2002–03, 2011–12 (record)
+FA Charity / Community Shield
+Winners (15): 1964*, 1965*, 1966, 1974, 1976, 1977*, 1979, 1980, 1982, 1986*, 1988, 1989, 1990*, 2001, 2006 (* shared)
+Sheriff of London Charity Shield
+Winners (1): 1906
+Football League Super Cup
+Winners (1): 1985–86
+
+European
+European Cup/UEFA Champions League
+Winners (5): 1976–77, 1977–78, 1980–81, 1983–84, 2004–05
+UEFA Cup
+Winners (3): 1972–73, 1975–76, 2000–01
+European Super Cup/UEFA Super Cup
+Winners (3): 1977, 2001, 2005
+Doubles and Trebles
+Doubles:[note 1]
+League and FA Cup: 1
+1985–86
+League and League Cup: 2
+1981–82, 1982–83
+European Double (League and European Cup): 1
+1976–77
+League and UEFA Cup: 2
+1972–73, 1975–76
+League Cup and European Cup: 1
+1980–81
+Trebles[note 1]
+League, League Cup and European Cup: 1
+1983–84
+FA Cup, League Cup and UEFA Cup: 1
+2000–01</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 June 1892</hasWebsite>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.liverpoolfc.com/</hasWebsite>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#London -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#London">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#London_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#London_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#London"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Manchester -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Manchester">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Manchester_City_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Manchester_City_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#City_of_Manchester_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">曼城俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manchester City Football Club, also known simply as City or the Cityzens, is a football club based in east Manchester, England. Founded in 1880 as St. Mark&apos;s (West Gorton), it became Ardwick Association Football Club in 1887 and Manchester City in 1894. The club&apos;s home ground is the City of Manchester Stadium in east Manchester, to which it moved in 2003, having played at Maine Road since 1923.
+
+Manchester City first played in the top-tier of the Football League in 1899 and won their first major honour with the FA Cup in 1904. The club&apos;s most successful period was from 1968 to 1970, when it won the League Championship, FA Cup, League Cup and European Cup Winners&apos; Cup, under the management team of Joe Mercer and Malcolm Allison. After losing the 1981 FA Cup Final, the club went through a period of decline, culminating in relegation to the third tier of English football for the only time in its history in 1998. Having regained their Premier League status in the early 2000s, Manchester City was purchased in 2008 by Abu Dhabi United Group for £210 million, receiving considerable investment. The club won the Premier League in 2012, 2014 and, most recently in 2018, also becoming the first Premier League team to attain 100 points in a single season.
+
+Manchester City has the fifth-highest revenue in football, at €527.7 million in 2016–17. Forbes magazine ranks it as the world&apos;s fifth-most valuable football club, worth US$2.47 billion. In 2015, a 13.79% stake purchase of the club&apos;s parent company, City Football Group (CFG), by the CITIC Group for £265 million valued it at $3 billion.[6]</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pep Guardiola</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manchester City Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Citizens, Sky Blues, City</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leagues
+Manuel Pellegrini with the Premier League trophy after the victorious 2013–14 season.
+First Division/Premier League[106]
+Winners (5): 1936–37, 1967–68, 2011–12, 2013–14, 2017–18
+Second Division/First Division[106]
+Winners (7): 1898–99, 1902–03, 1909–10, 1927–28, 1946–47, 1965–66, 2001–02
+Second Division Play-off[106]
+Winners (1): 1998–99
+
+Cups
+FA Cup
+Winners (5): 1903–04, 1933–34, 1955–56, 1968–69, 2010–11
+Football League Cup/EFL Cup
+Winners (5): 1969–70, 1975–76, 2013–14, 2015–16, 2017–18
+FA Community Shield
+Winners (5): 1937, 1968, 1972, 2012, 2018
+
+European
+European Cup Winners&apos; Cup
+Winners (1): 1969–70
+Doubles
+1969–70: League Cup and European Cup Winners&apos; Cup
+2013–14: League and League Cup
+2017–18: League and EFL Cup</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.mancity.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1880</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Manchester_United_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Manchester_United_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Old_Trafford"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">曼彻斯特联足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manchester United Football Club, commonly known as Man. United or simply United, is a professional football club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of English football. Nicknamed &quot;the Red Devils&quot;, the club was founded as Newton Heath LYR Football Club in 1878, changed its name to Manchester United in 1902 and moved to its current stadium, Old Trafford, in 1910.
+
+Manchester United have won more trophies than any other club in English football, with a record 20 League titles, 12 FA Cups, 5 League Cups and a record 21 FA Community Shields. United have also won three UEFA Champions Leagues, one UEFA Europa League, one UEFA Cup Winners&apos; Cup, one UEFA Super Cup, one Intercontinental Cup and one FIFA Club World Cup. In 1998–99, the club became the first in the history of English football to achieve the treble of the Premier League, the FA Cup and the UEFA Champions League. By winning the UEFA Europa League in 2016–17, they became one of five clubs to have won all three main UEFA club competitions, and the only English club to have won every ongoing top-flight honour available to them.
+
+The 1958 Munich air disaster claimed the lives of eight players. In 1968, under the management of Matt Busby, Manchester United became the first English football club to win the European Cup. Alex Ferguson won 38 trophies as manager, including 13 Premier League titles, 5 FA Cups and 2 UEFA Champions Leagues, between 1986 and 2013, when he announced his retirement. José Mourinho is the club&apos;s current manager, having been appointed on 27 May 2016.
+
+Manchester United was the highest-earning football club in the world for 2016–17, with an annual revenue of €676.3 million, and the world&apos;s most valuable football club in 2018, valued at £3.1 billion.[11] As of June 2015, it is the world&apos;s most valuable football brand, estimated to be worth $1.2 billion. After being floated on the London Stock Exchange in 1991, the club was purchased by Malcolm Glazer in May 2005 in a deal valuing the club at almost £800 million, after which the company was taken private again, before going public once more in August 2012, when they made an initial public offering on the New York Stock Exchange. Manchester United is one of the most widely supported football clubs in the world, and has rivalries with Liverpool, Manchester City, Arsenal, and Leeds United.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">José Mourinho</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manchester United Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Red Devils</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">League
+First Division/Premier League[nb 3]
+Winners (20): 1907–08, 1910–11, 1951–52, 1955–56, 1956–57, 1964–65, 1966–67, 1992–93, 1993–94, 1995–96, 1996–97, 1998–99, 1999–2000, 2000–01, 2002–03, 2006–07, 2007–08, 2008–09, 2010–11, 2012–13 (record)
+Second Division[nb 3]
+Winners (2): 1935–36, 1974–75
+
+Cups
+FA Cup
+Winners (12): 1908–09, 1947–48, 1962–63, 1976–77, 1982–83, 1984–85, 1989–90, 1993–94, 1995–96, 1998–99, 2003–04, 2015–16
+Football League Cup/EFL Cup
+Winners (5): 1991–92, 2005–06, 2008–09, 2009–10, 2016–17
+FA Charity/Community Shield
+Winners (21): 1908, 1911, 1952, 1956, 1957, 1965*, 1967*, 1977*, 1983, 1990*, 1993, 1994, 1996, 1997, 2003, 2007, 2008, 2010, 2011, 2013, 2016 (* shared) (record)
+
+European
+European Cup/UEFA Champions League
+Winners (3): 1967–68, 1998–99, 2007–08
+European Cup Winners&apos; Cup
+Winners (1): 1990–91
+UEFA Europa League
+Winners (1): 2016–17
+European Super Cup
+Winners (1): 1991
+
+Worldwide
+Intercontinental Cup
+Winners (1): 1999
+FIFA Club World Cup
+Winners (1): 2008
+
+Doubles and Trebles
+Doubles
+League and FA Cup: 2
+1993–94, 1995–96
+European Double (League and UEFA Champions League): 1
+2007–08
+League and League Cup: 1
+2008–09
+League Cup and Europa League: 1
+2016–17
+Trebles
+Continental Treble (League, FA Cup and UEFA Champions League): 1
+1998–99
+European Treble (European Cup/UEFA Champions League, UEFA Cup Winners&apos; Cup and UEFA Cup/Europa League)
+1967–68 European Cup, 1990–91 European Cup Winners&apos; Cup, 2016–17 UEFA Europa League</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.manutd.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1878</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Molineux_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Molineux_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Wolverhampton"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Newcastle_United_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Newcastle_United_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Newcastle_upon_Tyne"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">纽卡斯尔联</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newcastle United Football Club is an English professional association football club based in Newcastle upon Tyne, that plays in the Premier League, the top tier of English football. Newcastle United was founded in 1892 by the merger of Newcastle East End and Newcastle West End, and has played at its current home ground, St James&apos; Park, ever since. The ground was developed into an all-seater stadium in the mid-1990s and has a capacity of 52,354.
+
+The club has been a member of the Premier League for all but three years of the competition&apos;s history, spending 85 seasons in the top tier as of May 2016, and has never dropped below English football&apos;s second tier since joining the Football League in 1893. They have won four League Championship titles, six FA Cups and a Charity Shield, as well as the 1969 Inter-Cities Fairs Cup and the 2006 UEFA Intertoto Cup. Newcastle United has the ninth highest total of trophies won by an English club. The club&apos;s most successful period was between 1904 and 1910, when they won an FA Cup and three of their First Division titles. The club were highly successful in the Premier League in the 1990s and early 2000s without winning any trophies, but have been mostly struggling since the 2006–07 season, and were relegated in 2009 and 2016. They returned to the Premiership for the 2017–18 season after winning the Championship title the preceding year.
+
+Newcastle has a fierce local rivalry with Sunderland, and the two clubs have engaged in the Tyne–Wear derby since 1898. The club&apos;s traditional kit colours are black and white striped shirts, black shorts and black socks. Their traditional crest takes elements of the city coat of arms, which features two grey seahorses. Prior to each home game the team enters the field to &quot;Local Hero&quot;, written by Newcastle native Mark Knopfler, while &quot;Blaydon Races&quot; is invariably sung during games.
+
+The club has been owned by Mike Ashley since 2007, succeeding long term chairman and owner Sir John Hall. The club is the 17th-highest revenue producing club in the world in terms of annual revenue, generating €169.3 million in 2015. Historically, Newcastle&apos;s highest placing was in 1999, when they were the fifth-highest revenue producing football club in the world, and second in England only behind Manchester United.[6]</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rafael Benítez</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newcastle United Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Magpies</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic
+Football League First Division / Premier League:
+Winners (4) – 1904–05, 1906–07, 1908–09, 1926–27
+Second Division / Championship:
+Winners (4) – 1964–65, 1992–93, 2009–10, 2016–17
+
+FA Cup:
+Winners (6) – 1910, 1924, 1932, 1951, 1952, 1955
+FA Charity Shield:
+Winners (1) – 1909
+Sheriff of London Charity Shield:
+Winners: 1906–07
+
+European
+Inter-Cities Fairs Cup:
+Winners (1) − 1969
+UEFA Intertoto Cup:
+Winners (1) − 2006 (Outright Winner)
+
+Other honours
+Texaco Cup:
+Winners (2) − 1974, 1975
+Anglo-Italian Cup:
+Winners (1) − 1973</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nufc.co.uk/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9 December 1892</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Newcastle_upon_Tyne -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Newcastle_upon_Tyne">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Old_Trafford -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Old_Trafford">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Manchester"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Second_striker -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Second_striker">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Selhurst_Park -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Selhurst_Park">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#London"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Southampton -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Southampton">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Southampton_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Southampton_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#St_Marys_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">南安普顿足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southampton Football Club (About this sound listen)) is a professional association football club based in Southampton, Hampshire, England, which plays in the Premier League, the top tier of English football.
+
+Their home ground since 2001 has been St Mary&apos;s Stadium, before which they were based at The Dell. The club has been nicknamed &quot;The Saints&quot; since its inception in 1885 due to its history as a church football team, founded as St. Mary&apos;s Church of England Young Men&apos;s Association, and play in red and white shirts. Southampton has a long-standing rivalry with Portsmouth due to its close proximity and both cities&apos; respective maritime history. Matches between the two sides are known as the South Coast derby.
+
+The club has won the FA Cup once, in 1976, and their highest-ever league finish was second in the First Division in 1983–84.[4] Southampton were relegated from the Premier League on 15 May 2005, ending 27 successive seasons of top-division football for the club. They returned after a seven-year absence, and have played there ever since.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mark Hughes</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Southampton Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Saints</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The club&apos;s trophy cabinet, located within the St. Mary&apos;s Stadium
+Football League Division One / Premier League
+Runners-up: 1983–84
+Football League Division Two / Football League Championship
+Runners-up: 1965–66, 1977–78, 2011–12
+Football League Division Three / Football League One
+Champions: 1959–60
+Runners-up: 2010–11
+Football League Third Division South
+Champions: 1921–22
+Southern League
+Champions: 1896–97, 1897–98, 1898–99, 1900–01, 1902–03, 1903–04
+FA Cup
+Winners: 1976
+Runners-up: 1900, 1902, 2003
+League Cup
+Runners-up: 1979, 2017
+FA Community Shield
+Runners-up: 1976
+Football League Trophy
+Winners: 2010
+Zenith Data Systems Cup
+Runners-up: 1992
+Anglo-Italian League Cup
+Runners-up: 1976
+Hampshire Senior Cup
+Winners: 17 times (includes wins as St. Mary&apos;s and Southampton St. Mary&apos;s, and wins by &apos;A&apos; and reserve teams)
+Texaco Cup
+Runners-up: 1975</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://southamptonfc.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21 November 1885</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#St_James_Park -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#St_James_Park">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Newcastle_upon_Tyne"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#St_Marys_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#St_Marys_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Southampton"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Stamford_Bridge_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Stamford_Bridge_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Sweeper -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Sweeper">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Tottenham_Hotspur_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Tottenham_Hotspur_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Tottenham_Hotspur_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">热刺俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tottenham Hotspur Football Club, commonly referred to simply as Tottenham or Spurs, is a professional football club in Tottenham, London, England, that competes in the Premier League. The club&apos;s home ground for the 2018–19 season will be Tottenham Hotspur Stadium but the club will play their first few home games of the season at Wembley Stadium. Their former home of White Hart Lane had been demolished to make way for the new stadium on the same site. Their training ground is on Hotspur Way in Bulls Cross in the London Borough of Enfield.
+
+Founded in 1882, Tottenham won the FA Cup for the first time in 1901, the only non-League club to do so since the formation of the Football League in 1888. Tottenham were the first club in the 20th century to achieve the League and FA Cup Double, winning both competitions in the 1960–61 season. After successfully defending the FA Cup in 1962, in 1963 they became the first British club to win a UEFA club competition – the European Cup Winners&apos; Cup.[3] They were also the inaugural winners of the UEFA Cup in 1972, becoming the first British club to win two different major European trophies. They have collected at least one major trophy in each of the six decades from the 1950s to 2000s – an achievement only matched by Manchester United.[4][5] In total, Spurs have won two league titles, eight FA Cups, four League Cups, seven FA Community Shields, one European Cup Winners&apos; Cup and two UEFA Cups.
+
+The club&apos;s Latin motto is Audere est Facere (&quot;To Dare Is to Do&quot;), and its emblem is a cockerel standing upon a football. The club has a long-standing rivalry with nearby club Arsenal, with head-to-head fixtures known as the North London derby.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mauricio Pochettino</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tottenham Hotspur Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spurs, The Lilywhites</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic
+League competitions
+First Division/Premier League:
+Winners (2): 1950–51, 1960–61(D)
+Second Division/Championship:
+Winners (2): 1919–20, 1949–50
+
+Cup competitions
+FA Cup:
+Winners (8): 1900–01, 1920–21, 1960–61(D), 1961–62, 1966–67, 1980–81, 1981–82, 1990–91
+League Cup:
+Winners (4): 1970–71, 1972–73, 1998–99, 2007–08
+FA Charity Shield/FA Community Shield:
+Winners (7): 1921, 1951, 1961, 1962, 1967*, 1981*, 1991* (*shared)
+
+European
+UEFA Cup Winners&apos; Cup:
+Winners (1): 1962–63
+UEFA Cup/UEFA Europa League:
+Winners (2): 1971–72, 1983–84</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.tottenhamhotspur.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 September 1882</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Tottenham_Hotspur_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Tottenham_Hotspur_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#London"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Turf_Moor -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Turf_Moor">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Lancashire"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Vicarage_Road -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Vicarage_Road">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Watford"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Watford -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Watford">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Watford_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Watford_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Vicarage_Road"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">沃特福德足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watford Football Club is a professional football club based in Watford, Hertfordshire, England, that plays in the Premier League, the highest level in the English football league system. Founded in 1881 as Watford Rovers, the club entered the FA Cup for the first time in 1886, and the Southern League a decade later. After finishing the 1914–15 season as Southern League champions under the management of Harry Kent, Watford joined the Football League in 1920. The club played at several grounds in its early history, before moving to a permanent location at Vicarage Road in 1922, where it remains.[5] Watford spent most of the following half century in the lower divisions of The Football League, changing colours and crest on multiple occasions.
+
+England manager Graham Taylor&apos;s tenure at the club saw Watford scale new heights. Between Taylor&apos;s appointment in 1977 and departure in 1987, Watford rose from the Fourth Division to the First Division. The team finished second in the First Division in the 1982–83 season, competed in the UEFA Cup in 1983–84, and also reached the 1984 FA Cup Final. Watford experienced a decade of decline between 1987 and 1997, before Taylor returned as full-time manager, leading the team to successive promotions from the renamed Second Division[a] to the Premier League for one season in 1999–2000. The club experienced a further one season stint in the top division of English football during the 2006–07 season, under Aidy Boothroyd&apos;s management; eight years in the Championship followed. Watford secured promotion in 2014–15, and have competed in the Premier League since the 2015–16 season finishing 13th, 17th and 14th respectively.
+
+Watford is owned by the Pozzo family, which also owns Udinese Calcio in Italy and previously Granada CF in Spain. Sir Elton John, who owned Watford during both of Graham Taylor&apos;s successful periods as manager, served alongside Taylor as the club&apos;s joint Honorary Life President until 2008, only to later resume the role he shared alongside Graham Taylor until Taylor&apos;s death.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Javi Gracia</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watford Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Hornets, The Golden Boys, Yellow Army, The &apos;Orns</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ootball League First Division	
+Runners-up    1982–83
+Play-off Winners    1998–99
+
+Football League Championship
+Runners-up	2014–15
+Play-off Winners    2005–06
+Play-off Runners-up    2012–13
+
+Football League Second Division
+Runners-up    1981–82
+
+Champions League
+Champions    2015-16, 1997–98
+Runners-up    1978–79
+
+Football League Fourth Division
+Champions    1977–78
+
+Southern Football League
+Champions    1914–15
+Runners-up    1919–20
+
+FA Cup
+Runners-up    1983–84</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.watfordfc.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1881</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#West_Ham_United_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#West_Ham_United_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">西汉姆联</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">West Ham United Football Club is a professional football club based in Stratford, East London, England. They compete in the Premier League, the top tier of English football. The club re-located to the London Stadium in 2016.
+
+The club was founded in 1895 as Thames Ironworks and reformed in 1900 as West Ham United. They moved to the Boleyn Ground in 1904, which remained their home ground for more than a century. The team initially competed in the Southern League and Western League before joining the Football League in 1919. They were promoted to the top flight in 1923, when they were also losing finalists in the first FA Cup Final held at Wembley. In 1940, the club won the inaugural Football League War Cup.
+
+West Ham have been winners of the FA Cup three times, in 1964, 1975, and 1980, and have also been runners-up twice, in 1923, and 2006. The club have reached two major European finals, winning the European Cup Winners&apos; Cup in 1965 and finishing runners-up in the same competition in 1976. West Ham also won the Intertoto Cup in 1999. They are one of eight clubs never to have fallen below the second tier of English football, spending 60 of 92 league seasons in the top flight, up to and including the 2017–18 season. The club&apos;s highest league position to date came in 1985–86, when they achieved third place in the then First Division.
+
+Three West Ham players were members of the 1966 World Cup final-winning England team: captain Bobby Moore and goalscorers Geoff Hurst and Martin Peters.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manuel Pellegrini</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">West Ham United Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Irons，The Hammers</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic competitions
+Football League First Division/Premier League (first tier)
+Highest placing: 3rd 1985–86
+Football League Second Division/Football League Championship (second tier)[243]
+Champions (2): 1957–58, 1980–81
+Runners-up: 1922–23, 1990–91, 1992–93
+Play-off Winners: 2005, 2012
+Southern League First Division:
+Highest placing: 3rd 1912–13
+Western Football League:
+Champions: 1906–07
+Section A Champions: 1906–07
+FA Cup
+Winners (3): 1964, 1975, 1980
+Runners-up: 1923, 2006
+League Cup
+Runners-up: 1966, 1981
+FA Charity Shield:
+Winners: 1964 (shared)
+Runners-up: 1975, 1980
+Football League War Cup:
+Winners: 1940
+Southern Floodlit Cup:
+Winners: 1956
+Runners-up: 1960
+London Challenge Cup
+Winners (9): 1924–25, 1925–26, 1929–30, 1946–47, 1948–49, 1952–53, 1956–57, 1967–68, 1968–69
+Essex Professional Cup:
+Winners (3): 1951, 1955 (Trophy shared), 1959
+Runners-up: 1952, 1958
+Hammers in Wartime
+London Combination:
+Champions: 1916–17
+Runners-up: 1915–16 (Supplementary Tournament), 1917–18
+League South A:
+Runners-up: 1939–40
+League South C:
+Runners-up: 1939–40
+Regional League South:
+Runners-up: 1940–41
+League South:
+Runners-up: 1943–44, 1944–45
+As Thames Ironworks F.C.
+Southern League Division Two :
+Champions: 1898–99
+London Champions: 1898–99
+London League:
+Champions: 1897–98
+Runners-up: 1896–97
+West Ham Charity Cup:
+Winners: 1896
+Runners-up: 1897
+
+European
+European Cup Winners Cup
+Winners: (1) 1965
+Runners-up: 1976
+UEFA Intertoto Cup: 1
+Winners: 1999
+Anglo-Italian League Cup
+Runners-up: 1975
+International
+International Soccer League: 1
+Champions: 1963
+American Challenge Cup
+Runners-up: 1963
+Other
+BBC Sports Personality of the Year Team Award: 1965
+Honorary Degree (Awarded to the club) in 2009 by the University of East London</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.whufc.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 July 1900</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Wide_midfield -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Wide_midfield">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Wing_back -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Wing_back">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Winger -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Winger">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Wolverhampton -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Wolverhampton">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Wolverhampton_Wanderers_Football_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Wolverhampton_Wanderers_Football_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#English_Premier_League"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Molineux_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">狼队</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolverhampton Wanderers Football Club (About this sound listen), commonly referred to as Wolves, is an English professional football club based in the city of Wolverhampton in the West Midlands. Originally known as St Luke&apos;s F.C., the club was formed in 1877 and has played at its home ground, Molineux Stadium, since 1889. It currently competes in the Premier League, the top tier of English football, as a result of winning the EFL Championship in the 2017–18 season.
+
+Wolves was one of the founding members of the Football League in 1888 and, apart from six seasons, has always played in one of the top two tiers of English football. The club spent 33 years in the top flight from 1932 to 1965, their longest continuous period at that level (albeit league football was in hiatus from 1939 to 1946 due to World War II). During the 1950s, the club was English league champions three times (1953–54, 1957–58 &amp; 1958–59), whilst under the management of Stan Cullis. Wolves has also finished runners-up in the league on five occasions (most recently in 1959–60) and in third place on a further six occasions (most recently in 1960–61).
+
+Wolves has won the FA Cup four times, most recently in 1960, and has finished runners-up on a further four occasions. The club has also won the Football League Cup twice, in 1974 and 1980.
+
+In the 1950s, Wolves was one of the first British clubs to install floodlights and, by taking part in televised &quot;floodlit friendlies&quot; against leading overseas teams, played an instrumental role in the creation of the European Cup. In European competition, the team reached the quarter-final stage of the 1959–60 European Cup and the semi-final stage of the 1960–61 European Cup Winners&apos; Cup, and were runners-up to Tottenham Hotspur in the inaugural UEFA Cup Final in 1972.
+
+The club originally used the St Luke&apos;s school colours of red and white. These were soon superseded by Wolves&apos; traditional gold shirts and black shorts. The original club badge was the Wolverhampton city coat of arms; since the 1960s, the club has used badges depicting one or more wolves. Wolves have long-standing rivalries with other West Midlands clubs; the main one is with West Bromwich Albion, against whom they contest the Black Country derby.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuno Espírito Santo</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolverhampton Wanderers Football Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wolves, The Wanderers</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">League
+Football League First Division, superseded by the Premier League (Tier 1)
+Champions (3): 1953–54, 1957–58, 1958–59
+Runners-up (5): 1937–38, 1938–39, 1949–50, 1954–55, 1959–60
+3rd place finishes (6): 1888–89, 1897–98, 1946–47, 1952–53, 1955–56, 1960–61
+[n.b. In 1946–47 and 1955–56, Wolves finished third on goal average having accumulated the same number of points as the team finishing second. Had goal difference been used instead (as it has in the English leagues since 1975), Wolves would have been runners-up on these two occasions.]
+EFL Championship/Football League Second Division (1892–1992) (Tier 2)
+Champions (4): 1931–32, 1976–77, 2008–09, 2017–18
+Runners-up (2): 1966–67, 1982–83
+Play-off winners (1): 2002–03
+EFL League One/Football League Third Division (Tier 3)
+Champions (3): 1923–24 (North), 1988–89, 2013–14
+Football League Fourth Division (Tier 4)
+Champions (1): 1987–88
+
+Cup
+UEFA Cup
+Runners-up (1): 1972
+FA Cup
+Winners (4): 1893, 1908, 1949, 1960
+Runners-up (4): 1889, 1896, 1921, 1939
+Football League Cup
+Winners (2): 1974, 1980
+FA Charity Shield
+Winners (4): 1949*, 1954*, 1959, 1960* (* joint holders)
+Runners-up (1): 1958
+Football League Trophy
+Winners (1): 1988
+Texaco Cup
+Winners (1): 1971
+Tournoi de l&apos;Exposition Coloniale (Paris-Vincennes)
+Runners-up (1): 1931</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.wolves.co.uk/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1877</isFoundedIn>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
