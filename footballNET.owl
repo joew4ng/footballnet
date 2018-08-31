@@ -21,9 +21,27 @@
     
 
 
+    <!-- http://www.zhewang.de/footballnet#genderIs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zhewang.de/footballnet#genderIs"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasBirthday -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zhewang.de/footballnet#hasBirthday"/>
+    
+
+
     <!-- http://www.zhewang.de/footballnet#hasCNLabel -->
 
     <owl:AnnotationProperty rdf:about="http://www.zhewang.de/footballnet#hasCNLabel"/>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#hasHeight -->
+
+    <owl:AnnotationProperty rdf:about="http://www.zhewang.de/footballnet#hasHeight"/>
     
 
 
@@ -263,6 +281,15 @@
     
 
 
+    <!-- http://www.zhewang.de/footballnet#Anoeta_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Anoeta_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#San_Sebastián"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.zhewang.de/footballnet#Arsenal_Football_Club -->
 
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Arsenal_Football_Club">
@@ -285,6 +312,37 @@ UEFA Champions League (0): Runners-up 2006
 European Cup Winners Cup (1): 1994, Runners-up 1980, 1995</hasPastHonours>
         <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.arsenal.com/</hasWebsite>
         <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1886</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Athletic_Club -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Athletic_Club">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#San_Mamés_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">毕尔巴鄂竞技</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athletic Club, also commonly known as Athletic Bilbao (Basque: Bilboko Athletic Kluba / Spanish: Athletic de Bilbao), is a professional football club, based in Bilbao, Basque Country, Spain.
+
+They are known as Los Leones (The Lions) because their stadium was built near a church called San Mamés (Saint Mammes). Mammes was an early Christian thrown to the lions by the Romans. Mammes pacified the lions and was later made a saint.
+
+The club is one of three founding members of the Primera División that have never been relegated from the top division since its inception in 1929, the others being Real Madrid and Barcelona. Athletic have won La Liga on eight occasions, fourth most in the history of the league. In the table of Copa del Rey titles, Athletic is second only to Barcelona, having won it 24 times (per the team&apos;s official records; the Royal Spanish Football Federation (RFEF) recognizes 23 victories). The club also has one of the most successful women&apos;s teams in Spain, which has won five championships in the Primera División Femenina.
+
+The club is known for its cantera policy of bringing young Basque players through the ranks, as well as recruiting players from other Basque clubs like Joseba Etxeberria and Javi Martínez. Athletic&apos;s official policy is signing professional players native to or trained in football in the greater Basque Country, which includes Biscay, Gipuzkoa, Álava and Navarre (in Spain); and Labourd, Soule and Lower Navarre (in France). Since 1912, Athletic has played exclusively with players meeting its own criteria to be deemed as Basque, and has been one of the most successful teams in La Liga. This can be seen as a unique case in European football; it has gained Athletic both admirers and critics. The club has been praised for promoting home grown players and club loyalty.
+
+Athletic&apos;s main rivals are Real Sociedad, against whom it contests the Basque derby, and Real Madrid, due to sporting and political rivalry. Athletic is one of only four professional clubs in Spain (the others being Osasuna, Real Madrid and Barcelona) that is not a sports corporation; it is owned and operated by its club members.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eduardo Berizzo</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athletic Club</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Leones</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic
+La Liga (8): 1929–30, 1930–31, 1933–34, 1935–36, 1942–43, 1955–56, 1982–83, 1983–84
+Copa del Rey (23): 1903, 1904, 1910, 1911, 1914, 1915, 1916, 1921, 1923, 1930, 1931, 1932, 1933, 1943, 1944, 1944–45, 1949–50, 1955, 1956, 1958, 1969, 1972–73, 1983–84
+
+Supercopa de España (2): 1984,[note 2] 2015
+Copa Eva Duarte (1): 1950</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.athletic-club.eus</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1898</isFoundedIn>
     </owl:NamedIndividual>
     
 
@@ -323,10 +381,74 @@ Winners: 1945–46</hasPastHonours>
     
 
 
-    <!-- http://www.zhewang.de/footballnet#Attacking_midfield -->
+    <!-- http://www.zhewang.de/footballnet#Atlético_de_Madrid -->
 
-    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Attacking_midfield">
-        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Atlético_de_Madrid">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Wanda_Metropolitano"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">马德里竞技</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Club Atlético de Madrid, SAD (Spanish pronunciation: commonly known as Atlético Madrid, or simply as Atlético or Atleti, is a Spanish professional football club based in Madrid, that plays in La Liga. The club play their home games at the Wanda Metropolitano, which has a capacity of 68,000.
+
+In terms of the league titles won, Atlético Madrid are the third most successful club in Spanish football, behind Real Madrid and Barcelona. Atlético have won La Liga on 10 occasions, including a league and cup double in 1996; the Copa del Rey on 10 occasions; two Supercopas de España and one Copa Eva Duarte; in Europe, they won the European Cup Winners&apos; Cup in 1962, were runners-up in 1963 and 1986, were Champions League runners-up in 1974, 2014 and 2016,[5] won the Europa League in 2010, 2012 and 2018, and won the UEFA Super Cup in 2010, 2012 and 2018 as well as the 1974 Intercontinental Cup.
+
+Atlético&apos;s home kit is red and white vertical striped shirts, with blue shorts, and blue and red socks. This combination has been used since 1911. Throughout their history the club has been known by a number of nicknames, including Los Colchoneros (&quot;The Mattress Makers&quot;), due to their first team stripes being the same colours as traditional mattresses. During the 1970s, they became known as Los Indios, which some attribute to the club&apos;s signing several South American players after the restrictions on signing foreign players were lifted. However, there are a number of alternative theories which claim they were named so because their stadium is &quot;camped&quot; on the river bank, or because Los Indios (The Indians) were the traditional enemy of Los Blancos (The Whites), which is the nickname of the club&apos;s city rivals, Real Madrid. Felipe VI, the king of Spain, has been the honorary president of the club since 2003.
+
+The club co-owned the Indian Super League franchise in Kolkata, formerly named Atlético de Kolkata, which won the competition twice, but in 2017 Atlético decided to end its franchise partnership with the ISL club due to broken commitments.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diego Simeone</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Club Atlético de Madrid</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Colchoneros</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic competitions
+La Liga
+Winners (10): 1939–40, 1940–41, 1949–50, 1950–51, 1965–66, 1969–70, 1972–73, 1976–77, 1995–96, 2013–14
+Runners-up (9): 1943–44, 1957–58, 1960–61, 1962–63, 1964–65, 1973–74, 1984–85, 1990–91, 2017–18
+Segunda División
+Winners (1): 2001–02
+Runners-up (2): 1932–33, 1933-34
+Copa del Rey
+Winners (10): 1959–60, 1960–61, 1964–65, 1971–72, 1975–76, 1984–85, 1990–91, 1991–92, 1995–96, 2012–13
+Runners-up (9): 1920–21, 1925–26, 1955–56, 1963–64, 1974–75, 1986–87, 1998–99, 1999–00, 2009–10
+Supercopa de España
+Winners (2): 1985, 2014
+Runners-up (4): 1991, 1992, 1996, 2013
+Copa de los Campeones de España (Predecessor to the Supercopa de España)
+Winners (1): 1940-41
+Copa Eva Duarte (Predecessor to the Supercopa de España)
+Winners (1): 1951
+Runners-up (1): 1950
+Copa de la Liga
+Runners-up (2): 1984, 1985
+European competitions
+European Cup / UEFA Champions League
+Runners-up (3): 1973–74, 2013–14, 2015–16
+European Cup Winners&apos; Cup[66]
+Winners (1): 1961–62
+Runners-up (2): 1962–63, 1985–86
+UEFA Europa League
+Winners (3): 2009–10, 2011–12, 2017–18[67]
+UEFA Super Cup
+Winners (3): 2010, 2012, 2018
+International competitions
+Intercontinental Cup
+Winners (1): 1974</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.atleticodemadrid.com</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 April 1903</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Barcelona -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Barcelona">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Bilbao -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Bilbao">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
     </owl:NamedIndividual>
     
 
@@ -357,6 +479,14 @@ The Sussex Royal Ulster Rifles Charity Cup winners: 1959–60, 1960–61[a][22]
  shared with Chichester City in 1960–61</hasPastHonours>
         <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.brightonandhovealbion.com/</hasWebsite>
         <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 June 1901</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Bundesliga -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Bundesliga">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#League"/>
     </owl:NamedIndividual>
     
 
@@ -422,6 +552,43 @@ FA Youth Cup
 Winners (1): 1967–68</hasPastHonours>
         <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.burnleyfootballclub.com</hasWebsite>
         <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 May 1882</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#CD_Leganés -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#CD_Leganés">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Estadio_Municipal_de_Butarque"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">莱加内斯</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Club Deportivo Leganés, S.A.D. is a Spanish football team from Leganés, in the outskirts of Madrid. Founded on 26 June 1928 it plays in the Primera División, holding home games at Estadio Municipal de Butarque, which seats 11,454 spectators.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mauricio Pellegrino</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Club Deportivo Leganés, S.A.D</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Pepineros (The Cucumber Growers) Lega</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Segunda División B: 1992–93
+Tercera División: 1985–86</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.cdleganes.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26 June 1928</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Camp_Nou -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Camp_Nou">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Barcelona"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Campo_de_Fútbol_de_Vallecas -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Campo_de_Fútbol_de_Vallecas">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Madrid"/>
     </owl:NamedIndividual>
     
 
@@ -496,30 +663,6 @@ Finalists: – 1998, 2000</hasPastHonours>
     
 
 
-    <!-- http://www.zhewang.de/footballnet#Centre_back -->
-
-    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Centre_back">
-        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.zhewang.de/footballnet#Centre_forward -->
-
-    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Centre_forward">
-        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.zhewang.de/footballnet#Centre_midfield -->
-
-    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Centre_midfield">
-        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.zhewang.de/footballnet#Chelsea_Football_Club -->
 
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Chelsea_Football_Club">
@@ -568,11 +711,28 @@ Winners (1): 1998</hasPastHonours>
     
 
 
+    <!-- http://www.zhewang.de/footballnet#Chinese_Super_League -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Chinese_Super_League">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#League"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.zhewang.de/footballnet#City_of_Manchester_Stadium -->
 
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#City_of_Manchester_Stadium">
         <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
         <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Manchester"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Coliseum_Alfonso_Pérez -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Coliseum_Alfonso_Pérez">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Getafe"/>
     </owl:NamedIndividual>
     
 
@@ -654,10 +814,42 @@ Winners (3): 1996–97, 2000–01, 2001–02</hasPastHonours>
     
 
 
-    <!-- http://www.zhewang.de/footballnet#Defensive_midfield -->
+    <!-- http://www.zhewang.de/footballnet#Deportivo_Alavés -->
 
-    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Defensive_midfield">
-        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Deportivo_Alavés">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Mendizorrotza_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">阿拉维斯体育</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deportivo Alavés, S.A.D. [depoɾˈtiβo alaˈβes]; (Sporting Alavés), usually abbreviated to Alavés, is a Spanish football club based in Vitoria-Gasteiz, Álava, in the autonomous community of the Basque Country. Founded in 23 January 1921 as Sport Friends Club, it plays in the highest football category of The Liga Nacional de Fútbol Profesional, La Liga, since the 2016–17 season.
+
+It is recognized as the third best team in the Basque Country following Athletic Club of Bilbao and Real Sociedad de Futbol of San Sebastián. Its biggest success was in 2001 when, in the year of its debut in European competition, it was one of the finalists in the 2001 UEFA Cup Final against Liverpool, being defeated 5–4 by golden goal. In 2017, the club reached the final of the Copa del Rey, losing out 3–1 to Barcelona.
+
+The team&apos;s home kit is blue and white-striped shirt, blue shorts and white socks. It holds home matches at the 19,800-seater Mendizorrotza Stadium and uses other facilities located in Ibaia dedicated to training.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abelardo</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deportivo Alavés, S.A.D.</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Babazorros</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic competitions
+Segunda División
+Winners (4): 1929–30, 1953–54, 1997–98, 2015–16
+Segunda División B
+Winners (4): 1992–93, 1993–94, 1994–95, 2012–13[e]
+Tercera División
+Winners (5):[f] 1940–41, 1960–61, 1964–65, 1967–68, 1973–74
+Winners: 1989–90
+Regional Championship[10]
+Biscay Championship: 1929–30
+Gipuzkoa Championship: 1938–39
+Copa Federación de España
+Winners:: 1945–46
+Copa del Rey
+Runners-up: 2016–17
+
+European competitions
+UEFA Cup
+Runners-up: 2000–01</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.deportivoalaves.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 January 1921</isFoundedIn>
     </owl:NamedIndividual>
     
 
@@ -665,6 +857,14 @@ Winners (3): 1996–97, 2000–01, 2001–02</hasPastHonours>
     <!-- http://www.zhewang.de/footballnet#Dorset -->
 
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Dorset">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Eibar -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Eibar">
         <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
     </owl:NamedIndividual>
     
@@ -683,6 +883,111 @@ Winners (3): 1996–97, 2000–01, 2001–02</hasPastHonours>
 
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#English_Premier_League">
         <rdf:type rdf:resource="http://www.zhewang.de/footballnet#League"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Espanyol -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Espanyol">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#RCDE_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">西班牙人俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial Club Deportiu Espanyol de Barcelona (Catalan pronunciation; Royal Spanish Sports Club of Barcelona), commonly known as RCD Espanyol, or simply as Espanyol, is a professional sports club based in Barcelona, Spain.
+
+Founded in 1900, the club plays in La Liga, the highest division of Spanish football and play their home games at the RCDE Stadium, which holds up to 40,500 spectators. Espanyol have won Copa del Rey four times, most recently in 2006, and reached the UEFA Cup final in 1988 and 2007. The team competes in the Barcelona Derby against FC Barcelona.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rubi</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reial Club Deportiu Espanyol de Barcelona, S.A.D.</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periquitos</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic competitions
+Copa del Rey
+Winners (4): 1929, 1940, 2000, 2006
+Segunda División
+Winner (1): 1993–94
+International competitions
+
+UEFA Cup
+Runners-up (2): 1987–88, 2006–07
+Regional competitions
+Campionat de Catalunya
+Winners (11): 1903–04, 1905–06, 1906–07, 1907–08, 1911–12, 1914–15, 1917–18, 1928–29, 1932–33, 1936–37, 1939–40
+Supercopa de Catalunya
+Winners: 2016</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.rcdespanyol.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28 October 1900</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Estadi_Ciutat_de_València -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Estadi_Ciutat_de_València">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Valencia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Estadi_Montilivi -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Estadi_Montilivi">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Girona"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Estadio_Benito_Villamarín -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Estadio_Benito_Villamarín">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Seville"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Estadio_El_Alcoraz -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Estadio_El_Alcoraz">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Huesca"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Estadio_José_Zorrilla -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Estadio_José_Zorrilla">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Valladolid"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Estadio_Municipal_de_Balaídos -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Estadio_Municipal_de_Balaídos">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Vigo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Estadio_Municipal_de_Butarque -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Estadio_Municipal_de_Butarque">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Leganés"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Estadio_de_la_Cerámica -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Estadio_de_la_Cerámica">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Villarreal"/>
     </owl:NamedIndividual>
     
 
@@ -741,6 +1046,63 @@ Winners: (1): 1984–85[94]</hasPastHonours>
     
 
 
+    <!-- http://www.zhewang.de/footballnet#Football_Club_Barcelona -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Football_Club_Barcelona">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Camp_Nou"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">巴塞罗那足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Futbol Club Barcelona (Catalan pronunciation: (About this sound listen)), known simply as Barcelona and colloquially as Barça, is a professional football club based in Barcelona, Catalonia, Spain.
+
+Founded in 1899 by a group of Swiss, English and Catalan footballers led by Joan Gamper, the club has become a symbol of Catalan culture and Catalanism, hence the motto &quot;Més que un club&quot; (&quot;More than a club&quot;). Unlike many other football clubs, the supporters own and operate Barcelona. It is the third most valuable sports team in the world, worth $4.07 billion, and the world&apos;s third richest football club in terms of revenue, with an annual turnover of €648.3 million. The official Barcelona anthem is the &quot;Cant del Barça&quot;, written by Jaume Picas and Josep Maria Espinàs.
+
+Domestically, Barcelona has won 25 La Liga, 30 Copa del Rey, 13 Supercopa de España, 3 Copa Eva Duarte and 2 Copa de la Liga trophies, as well as being the record holder for the latter four competitions. In international club football, Barcelona has won 20 European and World titles: 5 UEFA Champions League titles, a record 4 UEFA Cup Winners&apos; Cup, a joint record 5 UEFA Super Cup, a record 3 Inter-Cities Fairs Cup and a joint record 3 FIFA Club World Cup. Barcelona was ranked first in the International Federation of Football History &amp; Statistics Club World Ranking for 1997, 2009, 2011, 2012 and 2015 and currently occupies the third position on the UEFA club rankings.[8] The club has a long-standing rivalry with Real Madrid; matches between the two teams are referred to as El Clásico.
+
+Barcelona is one of the most widely supported teams in the world, and the club has one of the largest social media following in the world among sports teams.Barcelona players have won a record number of Ballon d&apos;Or awards (11), with recipients including Johan Cruyff, as well as a record number of FIFA World Player of the Year awards (7), with winners including Ronaldo, Romário, Ronaldinho and Rivaldo. In 2010, three players who came through the club&apos;s youth academy (Lionel Messi, Andrés Iniesta and Xavi) were chosen as the three best players in the world in the FIFA Ballon d&apos;Or awards, an unprecedented feat for players from the same football school.
+
+Barcelona is one of three founding members of the Primera División that have never been relegated from the top division since its inception in 1929, along with Athletic Bilbao and Real Madrid. In 2009, Barcelona became the first Spanish club to win the continental treble consisting of La Liga, Copa del Rey, and the UEFA Champions League, and also became the first Spanish football club to win six out of six competitions in a single year, by also winning the Spanish Super Cup, UEFA Super Cup and FIFA Club World Cup. In 2011, the club became European champions again and won five trophies. This Barcelona team, which won 14 trophies in just 4 years under Pep Guardiola, is considered by some in the sport to be the greatest team of all time. By winning their fifth Champions League trophy on 6 June 2015, Barcelona became the first European club in history to achieve the continental treble twice.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ernesto Valverde</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Futbol Club Barcelona</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barça</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic
+La Liga(25)
+1929, 1944–45, 1947–48, 1948–49, 1951–52, 1952–53, 1958–59, 1959–60, 1973–74, 1984–85, 1990–91, 1991–92, 1992–93, 1993–94, 1997–98, 1998–99, 2004–05, 2005–06, 2008–09, 2009–10, 2010–11, 2012–13, 2014–15, 2015–16, 2017–18
+
+Copa del Rey(30)
+1909–10, 1911–12, 1912–13, 1919–20, 1921–22, 1924–25, 1925–26, 1927–28, 1941–42, 1950–51, 1951–52, 1952–53, 1956–57, 1958–59, 1962–63, 1967–68, 1970–71, 1977–78, 1980–81, 1982–83, 1987–88, 1989–90, 1996–97, 1997–98, 2008–09, 2011–12, 2014–15, 2015–16, 2016–17, 2017–18
+
+Supercopa de España(13)
+1983, 1991, 1992, 1994, 1996, 2005, 2006, 2009, 2010, 2011, 2013, 2016, 2018
+
+Copa Eva Duarte(3)
+1948, 1952, 1953
+
+Copa de la Liga(2)
+1983, 1986
+
+European
+UEFA Champions League(5)
+1991–92, 2005–06, 2008–09, 2010–11, 2014–15
+
+UEFA Cup Winners&apos; Cup(4)
+1978–79, 1981–82, 1988–89, 1996–97
+
+UEFA Super Cup(5)
+1992, 1997, 2009, 2011, 2015
+
+Inter-Cities Fairs Cup(3)
+1955–58, 1958–60, 1965–66
+
+Worldwide
+FIFA Club World Cup(3)
+2009, 2011, 2015</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.fcbarcelona.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29 November 1899</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.zhewang.de/footballnet#Fulham_Football_Club -->
 
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Fulham_Football_Club">
@@ -764,10 +1126,63 @@ UEFA Intertoto Cup (1): 2002</hasPastHonours>
     
 
 
-    <!-- http://www.zhewang.de/footballnet#Full_back -->
+    <!-- http://www.zhewang.de/footballnet#Getafe -->
 
-    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Full_back">
-        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Getafe">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Getafe_CF -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Getafe_CF">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Coliseum_Alfonso_Pérez"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">赫塔費足球俱樂部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getafe Club de Fútbol, simply Getafe, is a Spanish professional football club that plays in La Liga. The club is based in Getafe, a city in the Madrid metropolitan area. Getafe was founded in 1946 and refounded in 1983.
+
+Getafe participated in the top level of Spanish football for 12 years between 2004 and 2016. The club&apos;s home stadium is Coliseum Alfonso Pérez which was founded in 1998 and can hold 17,393 spectators.
+
+The club&apos;s main rivalries are against Leganés, based in close proximity to the city of Getafe, and a friendly rivalry against Real Madrid and Atlético Madrid.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">José Bordalás</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Getafe Club de Fútbol S.A.D.</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Geta</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Copa del Rey
+Runners-up (2): 2006–07, 2007–08
+
+Segunda División B – Group 1
+Winners: 1998–99</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.getafecf.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8 July 1983</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Girona -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Girona">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Girona_FC -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Girona_FC">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Girona_FC"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">吉罗纳足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girona Futbol Club, S.A.D. is a professional football club based in Girona, Catalonia, Spain. Founded on 23 July 1930, it plays in La Liga, having been promoted to the first-division league for the first time at the end of the 2016–17 season. Girona holds its home matches at the 13,450-capacity Estadi Montilivi.
+
+The club also has youth and amateur women&apos;s teams for competition.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eusebio Sacristán</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Girona Futbol Club, S.A.D.</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gironistes</hasNickname>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.gironafc.cat/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 July 1930</isFoundedIn>
     </owl:NamedIndividual>
     
 
@@ -851,6 +1266,23 @@ Winners: 1921[8]</hasPastHonours>
     
 
 
+    <!-- http://www.zhewang.de/footballnet#Huesca -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Huesca">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Ipurua_Municipal_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Ipurua_Municipal_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Eibar"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.zhewang.de/footballnet#King_Power_Stadium -->
 
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#King_Power_Stadium">
@@ -869,9 +1301,25 @@ Winners: 1921[8]</hasPastHonours>
     
 
 
+    <!-- http://www.zhewang.de/footballnet#La_Liga -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#La_Liga">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#League"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.zhewang.de/footballnet#Lancashire -->
 
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Lancashire">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Leganés -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Leganés">
         <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
     </owl:NamedIndividual>
     
@@ -935,6 +1383,62 @@ Laureus Spirit of Sport
 Winners (1): 2017</hasPastHonours>
         <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.lcfc.com/</hasWebsite>
         <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1884</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Levante_UD -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Levante_UD">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Estadi_Ciutat_de_València"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">莱万特足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levante Unión Deportiva, S.A.D. (Valencian: Llevant Unió Esportiva is a Spanish football club based in Valencia, in the namesake community.
+
+Founded on 9 September 1909, it plays in La Liga, holding home games at Ciutat de València Stadium</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paco López</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levante Unión Deportiva, S.A.D.</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granotas</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National competitions
+Copa del Rey
+Semi-finals (1): 1935
+Copa de la España Libre
+Winners: 1937
+Segunda División
+Winners: 2003–04, 2016–17
+Segunda División B
+Winners: 1978–79, 1988–89, 1994–95, 1995–96, 1998–99
+Tercera División
+Winners: 1931–32, 1943–44, 1945–46, 1953–54, 1955–56, 1972–73, 1975–76
+
+Regional Competitions
+Campeonato de Valencia
+Winners:1927–28
+Campeonato Levante-Sur
+Winners:1934–35
+
+Friendly Tournaments
+Trofeo Costa de Valencia [31]
+Winners:1972, 1974, 1977
+Trofeo Comunidad Valenciana [32]
+Winners:1986
+Trofeo Ciutat de València
+Winners:1995
+Trofeo Ciudad de Valencia
+Winners:1997
+Trofeo de la Generalitat Valenciana
+Winners:2000</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.levanteud.com</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9 September 1909</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Ligue_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Ligue_1">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#League"/>
     </owl:NamedIndividual>
     
 
@@ -1029,6 +1533,14 @@ FA Cup, League Cup and UEFA Cup: 1
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#London_Stadium">
         <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
         <is_location_in rdf:resource="http://www.zhewang.de/footballnet#London"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Madrid -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Madrid">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
     </owl:NamedIndividual>
     
 
@@ -1154,6 +1666,24 @@ European Treble (European Cup/UEFA Champions League, UEFA Cup Winners&apos; Cup 
     
 
 
+    <!-- http://www.zhewang.de/footballnet#Mendizorrotza_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Mendizorrotza_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Vitoria_Gasteiz"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Mestalla_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Mestalla_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Valencia"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.zhewang.de/footballnet#Molineux_Stadium -->
 
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Molineux_Stadium">
@@ -1227,10 +1757,348 @@ Winners (1) − 1973</hasPastHonours>
     
 
 
-    <!-- http://www.zhewang.de/footballnet#Second_striker -->
+    <!-- http://www.zhewang.de/footballnet#Petr_Cech -->
 
-    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Second_striker">
-        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Petr_Cech">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Player"/>
+        <has_position rdf:resource="http://www.zhewang.de/footballnet#Goalkeeper"/>
+        <play_for rdf:resource="http://www.zhewang.de/footballnet#Arsenal_Football_Club"/>
+        <genderIs rdf:datatype="http://www.w3.org/2001/XMLSchema#string">male</genderIs>
+        <hasBirthday rdf:datatype="http://www.w3.org/2001/XMLSchema#string">20 May 1982</hasBirthday>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">切赫</hasCNLabel>
+        <hasHeight rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.96 m</hasHeight>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petr Čech (Czech pronunciation(About this sound listen); born 20 May 1982) is a Czech professional footballer who plays as a goalkeeper for Premier League club Arsenal. He is the former captain for the Czech Republic national team. Čech has previously played for Chmel Blšany, Sparta Prague, Rennes and Chelsea. He is the most capped player in the history of the Czech national team with 124 caps, and represented the country at the 2006 World Cup, as well as the 2004, 2008, 2012, and 2016 European Championships. He was voted into the Euro 2004 all-star team after helping the Czechs reach the semi-finals. Čech also received the individual award of Best Goalkeeper in the 2004–05, 2006–07 and 2007–08 seasons of the UEFA Champions League. In addition, he was named in the FIFPro and UEFA Champions League team of the season in 2006. He is considered to be one of the greatest and most respected goalkeepers of his generation.
+
+Čech joined Chelsea in 2004 and made 486 official appearances for the club, making him the club&apos;s highest overseas appearance maker and sixth in its all-time appearances list.[6] With Chelsea, Čech won four Premier League titles, four FA Cups, three League Cups, one UEFA Europa League and one UEFA Champions League. Čech kept a club record 220 clean sheets for Chelsea in all competitions.
+
+Čech holds a number of goalkeeping records, including the Premier League record for fewest appearances required to reach 100 clean sheets, having done so in 180 league appearances, the most number of clean sheets in a season (24), as well as the record for the most clean sheets in Premier League history. At the end of the 2017–18 season, the record stood at 201.[7] During the 2004–05 season, Čech went 1,025 minutes without conceding a goal – a Premier League record, until it was surpassed by Edwin van der Sar of Manchester United on 27 January 2009.
+
+Čech is the only goalkeeper to have won the Golden Glove with two separate clubs, winning it a joint record four times; in 2004–05, 2009–10, 2013–14 and the 2015–16. Additionally he holds a Czech professional league record of not conceding a goal in 903 competitive minutes, a club record at his former club Sparta Prague, having gone 928 minutes unbeaten in all competitions in 2001–02, when his unbeaten run in the Czech First League was combined with his performances in the Champions League. On top of this he holds the record for the number of Czech Footballer of the Year and Czech Golden Ball wins</hasIndication>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Petr Cech</hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#RCDE_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#RCDE_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Barcelona"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#RC_Celta_de_Vigo -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#RC_Celta_de_Vigo">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Estadio_Municipal_de_Balaídos"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">皇家维戈塞尔塔足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Club Celta de Vigo ( Royal Club Celta de Vigo), commonly known as Celta Vigo or simply Celta, is a Spanish professional football club based in Vigo, Galicia, currently playing in La Liga. It was founded on 23 August 1923 following the merger of Real Vigo Sporting and Real Fortuna Football Club. Nicknamed Os Celestes (The Sky Blues), they play in sky blue shirts and socks along with white shorts. The club&apos;s home stadium is the Abanca-Balaídos, which seats 29,000 spectators. Celta&apos;s name is derived from the Celts who were once present in the region. Its main rival is fellow Galician club Deportivo de La Coruña, with whom it contests the Galician derby.
+
+Celta have never won the league title nor Copa del Rey, although they have reached the final three times in the latter. One of the team&apos;s best seasons was 1970–71, when they finished unbeaten at home and were known as the &quot;giant-killers&quot;. Celta came sixth that season and qualified for the UEFA Cup for the first time. The club finished in their best-ever position of fourth in 2002–03, qualifying for the 2003–04 UEFA Champions League, where they were eliminated by Arsenal in the Round of 16. In the 2016–17 UEFA Europa League, Celta reached the semi-finals of the UEFA Europa League for the first time, losing to Manchester United.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antonio Mohamed</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Club Celta de Vigo, S.A.D.</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Célticos</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National titles
+Segunda División
+Winners (3): 1935–36, 1981–82, 1991–92
+Runners-up (7): 1959–60, 1960–61, 1965–66, 1968–69, 1975–76, 2004–05, 2011–12
+Segunda División B
+Winners (1): 1980–81
+Tercera División
+Winners (1): 1930–31
+Copa del Rey
+Runners-up (3): 1947–48, 1993–94, 2000–01
+
+European titles
+UEFA Intertoto Cup
+Winners (1): 2000
+
+Regional titles
+Galician Championship[9]
+Winners (6): 1923–24, 1924–25, 1925–26, 1929–30, 1931–32, 1933–34
+Asturian-Galician Championship
+Winners (1): 1934–35
+Galician Cup
+Winners (2): 2007, 2008</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.rccelta.es</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">23 August 1923</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Ramón_Sánchez_Pizjuán_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Ramón_Sánchez_Pizjuán_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Seville"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Rayo_Vallecano -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Rayo_Vallecano">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Campo_de_Fútbol_de_Vallecas"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">巴列卡诺足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rayo Vallecano de Madrid, S.A.D. (Spanish pronunciation:  often abbreviated to Rayo, is a Spanish football team based in Madrid, in the neighbourhood of Vallecas. Rayo was founded on 29 May 1924, and currently compete in La Liga following promotion from the Segunda División. Home games are held at the 14,708-seater Campo de Fútbol de Vallecas stadium.
+
+Rayo has competed in one European competition, the UEFA Cup in the 2000–01 season. The club made it to the quarter-finals before losing to fellow countrymen Alavés 4–2 on aggregate.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michel</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rayo Vallecano de Madrid, SAD</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Franjirrojos</hasNickname>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.rayovallecano.es/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29 May 1924</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Real_Betis -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Real_Betis">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Estadio_Benito_Villamarín"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">皇家贝蒂斯</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Betis Balompié, SAD, more commonly referred to as Real Betis (pronounced or just Betis, is a Spanish football club based in Seville, in the autonomous community of Andalusia. Founded on 12 September 1907, it plays in La Liga, having won the Segunda División in the 2014–15 season. It holds home games at Estadio Benito Villamarín in the south of the city.
+
+Real Betis won the league title in 1935 and the Copa del Rey in 1977 and 2005. Given the club&apos;s tumultuous history and many relegations, its motto is ¡Viva el Betis manque pierda! (&quot;Long live Betis even when they lose!&quot;).</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quique Setién</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Betis Balompié</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betis</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Official
+La Liga
+Winners (1): 1934–35
+Copa del Rey
+Winners (2): 1976–77, 2004–05
+Runners-up (2): 1931, 1996–97
+Supercopa de España
+Runners-up (1): 2005
+Segunda División
+Winners (7): 1931–32, 1941–42, 1957–58, 1970–71, 1973–74, 2010–11, 2014–15
+Runners-up (5): 1955–56, 1966–67, 1989–90, 1993–94, 2000–01
+Tercera División
+Winners (1): 1953–54
+Copa de Andalucia (defunct)
+Winners (1): 1927–28
+Runners-up (13): 1919–20, 1920–21, 1922–23, 1923–24, 1924–25, 1925–26, 1926–27, 1928–29, 1929–30, 1930–31, 1931–32, 1938–39, 1939–40
+
+Friendly
+Iberian Supercup: Runners-up 1935, 2005
+Ramón de Carranza: 1964, 1999, 2000, 2001, 2007
+Trofeo Colombino: 1968, 1983, 1995, 2009
+Guadiana Trophy: 2004
+
+Individual
+Pichichi Trophy
+Hipólito Rincón (1982–83)
+
+Zamora Trophy
+Joaquín Urquiaga (1934–35)
+Pedro Jaro (1994–95)</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.realbetisbalompie.es</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 September 1907</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Real_Madrid -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Real_Madrid">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Santiago_Bernabéu_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">皇马</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Madrid Club de Fútbol  &quot;Royal Madrid Football Club&quot;), commonly known as Real Madrid, is a professional football club based in Madrid, Spain.
+
+Founded on 6 March 1902 as the Madrid Football Club, the club has traditionally worn a white home kit since inception. The word real is Spanish for &quot;royal&quot; and was bestowed to the club by King Alfonso XIII in 1920 together with the royal crown in the emblem. The team has played its home matches in the 81,044-capacity Santiago Bernabéu Stadium in downtown Madrid since 1947. Unlike most European sporting entities, Real Madrid&apos;s members (socios) have owned and operated the club throughout its history.
+
+The club was estimated to be worth €3.47 billion ($4.1 billion) in 2018, and in the 2016–17 season it was the second highest-earning football club in the world, with an annual revenue of €674.6 million. The club is one of the most widely supported teams in the world. Real Madrid is one of three founding members of La Liga that have never been relegated from the top division since its inception in 1929, along with Athletic Bilbao and Barcelona. The club holds many long-standing rivalries, most notably El Clásico with Barcelona and El Derbi with Atlético Madrid.
+
+Real Madrid established itself as a major force in both Spanish and European football during the 1950s, winning five consecutive European Cups and reaching the final seven times. This success was replicated in the league, where the club won five times in the space of seven years. This team, which consisted of players such as Alfredo Di Stéfano, Ferenc Puskás, Francisco Gento and Raymond Kopa, is considered by some in the sport to be the greatest team of all time. In domestic football, the club has won 64 trophies; a record 33 La Liga titles, 19 Copa del Rey, 10 Supercopa de España, a Copa Eva Duarte, and a Copa de la Liga. In European and worldwide competitions, the club has won a record 25 trophies; a record 13 European Cup/UEFA Champions League titles, two UEFA Cups and four UEFA Super Cups. In international football, they have achieved a record six club world championships.
+
+Real Madrid was recognised as the FIFA Club of the 20th Century on 11 December 2000, and received the FIFA Centennial Order of Merit on 20 May 2004. The club was also awarded Best European Club of the 20th Century by the IFFHS on 11 May 2010. In June 2017, the team succeeded in becoming the first club to win back to back Champions Leagues, then made it three in a row in May 2018, extending their lead atop the UEFA club rankings.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Julen Lopetegui</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Madrid Club de Fútbol</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Blancos</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic
+La Liga(33)
+1931–32, 1932–33, 1953–54, 1954–55, 1956–57, 1957–58, 1960–61, 1961–62, 1962–63, 1963–64, 1964–65, 1966–67, 1967–68, 1968–69, 1971–72, 1974–75, 1975–76, 1977–78, 1978–79, 1979–80, 1985–86, 1986–87, 1987–88, 1988–89, 1989–90, 1994–95, 1996–97, 2000–01, 2002–03, 2006–07, 2007–08, 2011–12, 2016–17
+
+Copa del Rey(19)
+1905, 1906, 1907, 1908, 1917, 1934, 1936, 1946, 1947, 1961–62, 1969–70, 1973–74, 1974–75, 1979–80, 1981–82, 1988–89, 1992–93, 2010–11, 2013–14
+
+Supercopa de España(10)
+1988, 1989, 1990, 1993, 1997, 2001, 2003, 2008, 2012, 2017
+
+Copa Eva Duarte(1)
+1947
+
+Copa de la Liga(1)
+1985
+
+Continent
+UEFA Champions League(13)
+1955–56, 1956–57, 1957–58, 1958–59, 1959–60, 1965–66, 1997–98, 1999–2000, 2001–02, 2013–14, 2015–16, 2016–17, 2017–18
+
+UEFA Cup(2)
+1984–85, 1985–86
+
+UEFA Super Cup(4)
+2002, 2014, 2016, 2017
+
+Worldwide
+Intercontinental Cup(3)
+1960, 1998, 2002
+
+FIFA Club World Cup(3)
+2014, 2016, 2017</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.realmadrid.com</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6 March 1902</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Real_Sociedad -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Real_Sociedad">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Anoeta_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">皇家社会足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Sociedad de Fútbol, S.A.D., more commonly referred to as Real Sociedad (pronounced or La Real, is a Spanish football club based in the city of San Sebastián, Basque Country, founded on 7 September 1909. It plays its home matches at the Anoeta Stadium. Real Sociedad won the Liga title in 1980–81 and 1981–82, and last finished runners-up in 2002–03. The club has also won the Copa del Rey twice, in 1909 and 1987. It contests the Basque derby against rivals Athletic Bilbao. Real Sociedad were founder members of La Liga in 1929, and its longest spell in the top flight was for 40 seasons, from 1967 to 2007.[2]
+
+The club has competed in the UEFA Champions League twice. In the 2003–04 season, the club progressed to the round of 16 before losing to Lyon.
+
+Real Sociedad also has several sports sections: women&apos;s football, track and field, field hockey and basque pelota.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asier Garitano</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Sociedad de Fútbol, S.A.D.</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erreala</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Liga
+
+Winners: 1980–81, 1981–82
+Runners-up (3): 1979–80, 1987–88, 2002–03
+Copa del Rey
+
+Winners: 1909, 1986–87
+Runners-up (5): 1910, 1913, 1928, 1951, 1987–88
+Supercopa de España
+
+Winners: 1982
+Segunda División
+
+Winners (3): 1948–49, 1966–67, 2009-2010
+Gipuzkoa Championship[32]
+
+Winners (6): 1918–19, 1922–23, 1924–25, 1926–27, 1928–29, 1932–33</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.realsociedad.eus</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7 September 1909</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Real_Valladolid -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Real_Valladolid">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Estadio_José_Zorrilla"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">皇家巴利亚多利德足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Valladolid Club de Fútbol, S.A.D.  or simply Real Valladolid, is a Spanish football club based in Valladolid, in the autonomous community of Castile and León, from where the nickname Pucela is derived.
+
+Founded on 20 June 1928, it plays in La Liga, holding home games at the Estadio José Zorrilla, which seats 26,512 spectators.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sergio González</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Real Valladolid SAD</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pucela</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valladolid players celebrating their 2007 promotion to La Liga on the balcony of the City Hall
+Segunda División: 1947–48, 1958–59, 2006–07
+Copa de la Liga: 1983–84
+Copa Real Federación Española de Fútbol: 1953. Runner-up 1945.
+Copa del Rey: Runner-up 1949–50, 1988–89
+Best finishes
+
+UEFA Cup: 1984–85 (1st round), 1997–98 (2nd)
+UEFA Cup Winners&apos; Cup: 1989–90 (QF)
+La Liga: Fourth 1962–63
+Records
+
+Most games unbeaten in Segunda División – 29 in 2006–07
+Earliest promotion in Segunda División – Day 34 (out of 42), 22 April 2007
+Fastest goal in La Liga history – 7.42 seconds, scored by Joseba Llorente on 20 January 2008, vs RCD Espanyol (2–1 win)</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.realvalladolid.es/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1928</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#SD_Eibar -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#SD_Eibar">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Ipurua_Municipal_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">埃瓦尔足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sociedad Deportiva Eibar (in Basque: Eibar Kirol Elkartea) is a Spanish football club based in Eibar, Gipuzkoa, in the autonomous Basque Country.
+
+Founded on 30 November 1940, the team currently plays in La Liga, having been promoted to the top tier of Spanish football for the first time in 2014. They also participated in 26 Segunda División seasons (a spell in the 1950s, and most of the 1990s and 2000s), spending the rest of their history competing at lower levels.
+
+The team plays in claret and blue shirts with blue shorts (originating from the kit of FC Barcelona)[3] and holds home games at the Ipurua Municipal Stadium. SD Eibar is a fan-owned club, with more than 10,000 shareholders from 69 countries all over the world. Until SD Huesca qualified for the top flight in 2018, the club was considered the smallest to have played in Spain&apos;s top division,[4][5] and its stadium had the lowest capacity of any La Liga teams.
+Eibar is the only football club which has the quality certificate UNE-EN-ISO 9001.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">José Luis Mendilibar</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sociedad Deportiva Eibar, S.A.D.</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Armagiñak</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Segunda División: 2013–14
+Segunda División B: 1987–88, 2006–07,[d] 2010–11,
+Tercera División: 1950–51, 1952–53, 1961–62, 1962–63, 1966–67
+Tercera División: 1981–82,1985–86</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.sdeibar.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30 November 1940</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#SD_Huesca -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#SD_Huesca">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Estadio_El_Alcoraz"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">韦斯卡体育协会</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sociedad Deportiva Huesca, S.A.D., is a Spanish football club based in Huesca, in the autonomous community of Aragon. Founded in 1960, it plays in La Liga and hold their home games at Estadio El Alcoraz, which seats 5,500 spectators.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leo Franco</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sociedad Deportiva Huesca, S.A.D.</hasName>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sdhuesca.es/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1960</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#San_Mamés_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#San_Mamés_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Bilbao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#San_Sebastián -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#San_Sebastián">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Santiago_Bernabéu_Stadium -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Santiago_Bernabéu_Stadium">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Madrid"/>
     </owl:NamedIndividual>
     
 
@@ -1240,6 +2108,94 @@ Winners (1) − 1973</hasPastHonours>
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Selhurst_Park">
         <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
         <is_location_in rdf:resource="http://www.zhewang.de/footballnet#London"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Serie_A -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Serie_A">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#League"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Sevilla_FC -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Sevilla_FC">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Ramón_Sánchez_Pizjuán_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">塞维利亚足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sevilla Fútbol Club, S.A.D. or simply Sevilla, is Spain’s oldest sporting club solely devoted to football.[6][7][8][9] Sevilla FC is based in Seville, the capital and largest city of the autonomous community of Andalusia. Sevilla FC plays in Spain’s top flight, La Liga. The club was formed on 25 January 1890,[6][7][8][9] Scot Mr. Edward Farquharson Johnston being their first president. A few years later, on 14 October 1905, the club’s articles of association were registered in the Civil Government of Seville under the presidency of the Jerez-born José Luis Gallegos Arnosa.
+
+Sevilla FC is also the most successful club in Andalusia, winning a national league title in 1945–46, five Spanish Cups (1935, 1939, 1948, 2007 and 2010), one Spanish Super Cup (2007), a record five UEFA Cups/UEFA Europa Leagues (2006, 2007, 2014, 2015 and 2016) and the 2006 UEFA Super Cup. They were also designated by the International Federation of Football History &amp; Statistics as the World&apos;s best club in 2006 and 2007, thus being the first club to achieve this distinction in two consecutive years.
+
+Its youth team Sevilla Atlético, founded in 1958, currently play in Segunda División B. The club are affiliated to a side in Puerto Rico of the same name. Other clubs related to Sevilla FC include their women&apos;s team, futsal team and former Superleague Formula team.
+
+The Club’s home ground is the 42,714-seat Ramón Sánchez Pizjuán Stadium. It is located in the neighborhood of Nervión and owes its name to Ramón Sánchez Pizjuan, who was Sevilla FC’s President for 17 years.
+
+Sevilla FC has contributed many players to the Spain national team throughout their history, Spencer being the first one in 1923.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pablo Machín</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sevilla Fútbol Club SAD</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Hispalenses</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">National tournaments
+La Liga
+Winners (1): 1945–46
+Segunda División
+Winners (4): 1929, 1933–34, 1968–69, 2000–01
+Copa del Rey
+Winners (5): 1935, 1939, 1947–48, 2006–07, 2009–10
+Supercopa de España:
+Winners (1): 2007
+European tournaments
+UEFA Cup / UEFA Europa League
+Winners (5) – record: 2005–06, 2006–07, 2013–14, 2014–15, 2015–16
+UEFA Super Cup
+Winners (1): 2006
+Regional tournaments
+Copa Andalucía
+Winners (18): 1916–17, 1918–19, 1919–20, 1920–21, 1921–22, 1922–23, 1923–24, 1924–25, 1925–26, 1926–27, 1928–29, 1929–30
+1930–31, 1931–32, 1932–33, 1935–36, 1938–39, 1939–40
+Friendly tournaments
+Antonio Puerta Trophy
+Winners (4): 2008, 2009, 2011, 2012 2017
+Ramón de Carranza Trophy
+Winners (6): 1955, 1956, 1957, 2004, 2008, 2009
+Costa del Sol Trophy
+Winners (2): 1964, 2004
+Achille &amp; Cesare Bortolotti Trophy
+Winners (1): 2010
+Ciudad de la Línea Trophy
+Winners (3): 2001, 2002, 2003
+Teresa Herrera Trophy
+Winners (4): 1946, 1954, 1960, 2011
+Colombino Trophy
+Winners (4): 1975, 1985, 1996, 2005
+Winners (3): 1967, 1991, 1997
+
+City of Seville Trophy
+Winners (7): 1972, 1973, 1976, 1978, 1982, 1984, 1994
+Russian Railways Cup
+Winners (1): 2008
+Trofeo de la Sal
+Winners (1): 2010
+Antonio Camacho Memorial
+Winners (1): 2012
+Costa Brava Trophy
+Winners (1): 2012
+Supercopa Euroamericana
+Winners (1): 2016</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.sevillafc.es/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 January 1890</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Seville -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Seville">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
     </owl:NamedIndividual>
     
 
@@ -1328,14 +2284,6 @@ Runners-up: 1975</hasPastHonours>
     
 
 
-    <!-- http://www.zhewang.de/footballnet#Sweeper -->
-
-    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Sweeper">
-        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.zhewang.de/footballnet#Tottenham_Hotspur_Football_Club -->
 
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Tottenham_Hotspur_Football_Club">
@@ -1395,11 +2343,144 @@ Winners (2): 1971–72, 1983–84</hasPastHonours>
     
 
 
+    <!-- http://www.zhewang.de/footballnet#Valencia -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Valencia">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Valencia_CF -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Valencia_CF">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Mestalla_Stadium"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">巴伦西亚足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valencia Club de Fútbol , Valencian: València Club de Futbol [vaˈlensia ˈklub de fubˈbɔl];[4] also known as Valencia CF, Valencia or Los Che) is a Spanish football club based in Valencia. They play in La Liga. Valencia have won six La Liga titles, seven Copa del Rey titles, two Inter-Cities Fairs Cups (the predecessor to the UEFA Cup), one UEFA Cup, one UEFA Cup Winners&apos; Cup and two UEFA Super Cups. They also reached two UEFA Champions League finals in a row, losing to La Liga rivals Real Madrid in 2000 and Bayern Munich on penalties after a 1–1 draw in 2001. Valencia were also members of the G-14 group of leading European football clubs. In total, Valencia have reached seven major European finals, winning four of them.
+
+Valencia were founded in 1919 and have played their home games at the 49,500-seater Mestalla since 1923. They were due to move into the new 75,000-seater Nou Mestalla in the northwest of the city in 2013, but the final move date has been postponed while the stadium remains under construction. Valencia have a fierce rivalry with fellow Valencian club Villarreal, with whom they contest the Derbi de la Comunitat.[5] The rivalry is further fueled by the fact they are the two most successful clubs in the region. Valencia also have a long-standing rivalry with Levante, also located in the city of Valencia, and with two other clubs in the Valencian region, Hércules and Castellón.
+
+Valencia is the third-most supported football club in Spain, behind heavyweights Real Madrid and Barcelona.[6] It is also one of the biggest clubs in the world in terms of number of associates (registered paying supporters), with more than 50,000 season ticket holders and another 20,000+ season ticket holders on the waiting list, who can be accommodated in the new 75,000-seater stadium.
+
+Over the years, the club has achieved a global reputation for their prolific youth academy, or &quot;cantera.&quot; Products of their academy include world-class talents such as Raúl Albiol, Andrés Palop, Miguel Ángel Angulo, David Albelda, Gaizka Mendieta and David Silva. Current stars of the game to have graduated in recent years include Isco, Jordi Alba, Juan Bernat, José Gayà and Paco Alcácer.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marcelino</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Valencia Club de Fútbol, SAD</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Los Che</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic
+La Liga
+Winners (6): 1941–42, 1943–44, 1946–47, 1970–71, 2001–02, 2003–04
+Segunda División
+Winners (2): 1930–31, 1986–87
+Copa del Rey
+Winners (7): 1941, 1948–49, 1954, 1966–67, 1978–79, 1998–99, 2007–08
+Supercopa de España
+Winners (1): 1999
+Copa Eva Duarte
+Winners (1): 1949
+European
+UEFA Champions League
+Runners-up (2): 1999–2000, 2000–01
+
+European Cup Winners&apos; Cup
+Winners (1): 1979–80
+UEFA Cup
+Winners (1): 2003–04
+Inter-Cities Fairs Cup
+Winners (2): 1961–62, 1962–63
+UEFA Super Cup
+Winners (2): 1980, 2004
+UEFA Intertoto Cup
+Winners (1): 1998</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.valenciacf.com/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18 March 1919</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Valladolid -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Valladolid">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.zhewang.de/footballnet#Vicarage_Road -->
 
     <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Vicarage_Road">
         <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
         <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Watford"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Vigo -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Vigo">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Villarreal -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Villarreal">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Villarreal_CF -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Villarreal_CF">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Club"/>
+        <belongs_to rdf:resource="http://www.zhewang.de/footballnet#La_Liga"/>
+        <has_home_ground rdf:resource="http://www.zhewang.de/footballnet#Estadio_de_la_Cerámica"/>
+        <hasCNLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">比利亚雷亚尔足球俱乐部</hasCNLabel>
+        <hasIndication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Villarreal Club de Fútbol, S.A.D. (Valencian: Vila-real Club de Futbol, S.A.D.), usually abbreviated to Villarreal CF or just Villarreal, is a Spanish football club based in Villarreal, a city in the province of Castellón within the Valencian Community. Founded in 1923, it plays in La Liga, holding home games at Estadio de la Cerámica, with a capacity of 24,890.
+
+The club is nicknamed El Submarí Groguet or El Submarino Amarillo (Yellow Submarine) due to its yellow home kit, and due to being a low-profile team compared to Real Madrid, Barcelona, Atlético Madrid, and Valencia, whom they have challenged for trophies over the last decade. Villarreal has often been touted as an example of a small but successful club.</hasIndication>
+        <hasManager rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Javier Calleja</hasManager>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Villarreal Club de Fútbol S.A.D.</hasName>
+        <hasNickname rdf:datatype="http://www.w3.org/2001/XMLSchema#string">El Submarino Amarillo</hasNickname>
+        <hasPastHonours rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Domestic
+La Liga
+Runners-up (1): 2007–08
+Segunda División
+Runners-up (1): 2012–13
+Segunda División B
+Runners-up (2): 1987–88, 1991–92
+Tercera División
+Winners (1): 1970
+
+European
+UEFA Champions League
+Semi-finalists (1): 2005–06
+UEFA Europa League
+Semi-finalists (3): 2003–04, 2010–11, 2015–16
+UEFA Intertoto Cup
+Winners (2): 2003, 2004</hasPastHonours>
+        <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.villarrealcf.es/</hasWebsite>
+        <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10 March 1923</isFoundedIn>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Vitoria_Gasteiz -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Vitoria_Gasteiz">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.zhewang.de/footballnet#Wanda_Metropolitano -->
+
+    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Wanda_Metropolitano">
+        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Football_Ground"/>
+        <is_location_in rdf:resource="http://www.zhewang.de/footballnet#Madrid"/>
     </owl:NamedIndividual>
     
 
@@ -1545,30 +2626,6 @@ BBC Sports Personality of the Year Team Award: 1965
 Honorary Degree (Awarded to the club) in 2009 by the University of East London</hasPastHonours>
         <hasWebsite rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.whufc.com/</hasWebsite>
         <isFoundedIn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5 July 1900</isFoundedIn>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.zhewang.de/footballnet#Wide_midfield -->
-
-    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Wide_midfield">
-        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.zhewang.de/footballnet#Wing_back -->
-
-    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Wing_back">
-        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.zhewang.de/footballnet#Winger -->
-
-    <owl:NamedIndividual rdf:about="http://www.zhewang.de/footballnet#Winger">
-        <rdf:type rdf:resource="http://www.zhewang.de/footballnet#Position"/>
     </owl:NamedIndividual>
     
 
