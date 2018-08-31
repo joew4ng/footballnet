@@ -12,11 +12,11 @@ Individual count: 116
 Footballnet contains club data and football player data such as Premier League, La Liga, Serie A, Bundesliga, Ligue 1 and China Super League.
 
 ## FootballNET v0.1
-Premier League: all club data.
+- Premier League: all club data.
 
 ## FootballNET v0.2
-Premier League: all club data.
-La_Liga: all club data.
+- Premier League: all club data.
+- La_Liga: all club data.
 
 
 FootballNET has only Premier League clubs data now, more detail will come soon.
