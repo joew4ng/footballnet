@@ -17,7 +17,7 @@ Footballnet contains club data and football player data such as Premier League, 
 
 ## FootballNET v0.2
 - Premier League: all club data.
-- La_Liga: all club data.
+- La Liga: all club data.
 
 
 FootballNET has only Premier League clubs data now, more detail will come soon.
