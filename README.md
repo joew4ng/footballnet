@@ -6,6 +6,7 @@ All data comes from Wikipedia and http://www2.squawka.com.
 - Logical axiom count: 240
 - Individual count: 116
 
+Development environment
 - IDE:Protege 4.6
 - Language:OWL
 
